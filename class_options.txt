@@ -1,0 +1,105 @@
+# QuickBooks Class options in Ramp (tracking category 6edcf078-60a4-4c7d-b35e-2efa7b58c9fe). Format: Class name|Class option UUID|active. Generated 2026-09-19 from GET /accounting/field-options.
+2hour Learning|cffdeb74-3ee7-4240-90bb-c77739b9a489|active
+2hr Learning Evangelism|d7f1e3db-997a-49cc-8d5c-86c0f5d0c4c2|active
+alpha|7c96e75f-76c5-4bba-9621-7f3a98adb7a7|active
+Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626|active
+Alpha Armonk|da9e3194-2829-4726-9565-8bc2d32ae675|active
+Alpha Aspen|6690fc56-c647-4723-b5b1-9526c46c0a2a|active
+Alpha Atlanta|115e7b22-9a7b-450e-8710-f7da386e1b5e|active
+Alpha Bellevue|c4386197-a49a-44a8-8cb9-eea59abf1625|active
+Alpha Bethesda|8c6a4e48-24bd-489c-8f85-e29a953f6f4e|active
+Alpha Beverly Hills|8a6a5457-c1e1-4b9a-b968-36a207684b40|active
+Alpha Boca Raton|84313117-71de-4f67-9eb9-fecf82a9ad7b|active
+Alpha Boston|168aef4e-540f-4c4c-8857-8f93de8e8927|active
+Alpha Boston Jamaica|740e2c8a-57f6-45f9-86c6-bc4bff9a0289|active
+Alpha Carrolton|84287018-ae6c-4c95-bb06-539955a2e6c4|active
+Alpha Centreville|20611dca-f94f-4e24-8bab-a255a19a98b5|active
+Alpha Chantilly|0a3b86eb-0940-4c79-96c8-34d8c4ba5851|active
+Alpha Charlotte|43c0e4fa-9ac4-4e89-8cc6-a014f48f97f4|active
+Alpha Chicago|c3ccd1dc-9cc1-429f-bd26-f7ef09abee28|active
+Alpha Denver|7cb08602-694d-4501-9635-3ccdec79094c|active
+Alpha Dorado|0524cd6d-8bf0-4490-bdb7-ea85d2481d61|active
+Alpha Early Center Fin District|f035cc48-346c-4cab-b178-7d141a6637db|active
+Alpha Early Center Upp West Side|0aa4bdef-5ecd-4e88-b5d1-b67d53561f88|active
+Alpha East Bay|a99136b6-b500-47b6-a645-ec234bc38892|active
+Alpha Edmond|d022cc37-baf1-461a-a591-44fa0fe0a2ef|active
+Alpha Fort Lauderdale|1be6e04a-be60-4396-89a0-831c5ae26a8b|active
+Alpha Fort Worth|c5b3c4fe-729f-40a3-8d49-5df3202c0350|active
+Alpha Fort Worth (Fletcher)|39659586-bff5-458d-a34e-bfd5b9e172c9|active
+Alpha Franklin|d217aa79-df9f-4c3e-86ac-52a53bb477dd|active
+Alpha Greenwich|d126d2f8-c75a-4f3f-9ee6-cb1704515fd0|active
+Alpha High School|2f78e55a-f69d-46ba-a17b-418a0dbfe828|active
+Alpha Highland Park|9e72bc1d-f1df-4d09-980f-3ab492474fb8|active
+Alpha Houston|ea4cbde9-0a8b-41e7-bc8d-a90f00405ab5|active
+Alpha Houston Heights|53336a57-8e23-436b-8a23-e5cdef6d9d02|active
+Alpha Kirkland|f2ccb764-7270-4696-ada9-3d6840742d5b|active
+Alpha La Jolla|ad1bbd9b-8487-4e3c-b109-9b13f485544a|active
+Alpha Lake Travis|8bb12062-2c29-4156-9028-09c71e8a753a|active
+Alpha Lexington|62362d65-ff17-4134-b452-8bedbe4dfeb1|active
+Alpha Los Angeles|377bea48-1ea5-405f-b5a9-15f652877517|inactive
+Alpha Malibu|343e6f51-0a56-41fd-9282-be7c1691ce56|active
+Alpha Marin|4d78e336-b1bd-495b-a58a-b87e5045fc71|active
+Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c|active
+Alpha Miami (Grand Ave)|3133bb8c-732b-4f12-b9a0-d4ab94c1e5fa|active
+Alpha Miami Beach|18f801bb-88e2-495d-86a0-4369b01addf6|active
+Alpha Miami Beach (Biarritz)|68792a8d-db8c-4411-a9c3-5de371d5c125|active
+Alpha Nashville|b9ec4efc-4b84-422a-9734-6dfe1c838fb4|active
+Alpha Oklahoma City|0e26bcb6-e19e-4f3c-b41c-13e50e32a0c8|inactive
+Alpha Oklahoma City (Reno)|73bb5202-66c2-45f7-a22e-f6a680fffd0c|active
+Alpha Orange County|523c9f68-3f1f-4cbd-b3e7-527603990d1c|active
+Alpha Orlando|21e1b73b-31e9-4dbb-a1f9-65b984d08719|active
+Alpha Palm Beach|36dfde43-de04-4571-88c7-cb978ef6a1f8|active
+Alpha Palm Beach Gardens|34303cc7-3034-4262-aead-2a439bb305de|active
+Alpha Palo Alto|2036a696-5ae7-4674-a370-27391c24b354|active
+Alpha Park City|aebc43ed-afbc-422c-b757-3327278833bc|active
+Alpha Park City (Prospector)|250b9f7c-362e-4504-852a-1fb453ac6668|active
+Alpha Plano|7be2493f-4e2f-49ee-8bf6-0d56e6c5c151|active
+Alpha Port Chester|ca4a7c8b-13bf-41e7-9d92-030d889f4699|active
+Alpha Raleigh|9a7fcfda-286e-46ee-abb4-c6bbac8222a9|active
+Alpha San Francisco|dfc4647e-130c-459e-974a-c4bab55146e9|active
+Alpha San Juan|2ca2c4f3-4e3f-4a87-9429-88e3f64933b3|active
+Alpha Santa Barbara|f47817df-86d3-4f9c-916b-68d915a90277|active
+Alpha Santa Clara|3322546c-b699-41db-83ab-b6dec6bfa9f7|active
+Alpha Santa Monica|0d0f52d6-5e9c-4cda-8592-b9dbc319319b|active
+Alpha Santa Monica (Colorado)|039e052d-6457-4f76-84cc-587270d5b095|active
+Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36|active
+Alpha Scottsdale|3f07195d-5c50-4f30-824a-9d15ebb95222|active
+Alpha South Bay|4d365b02-031b-4394-88e3-c3f850ae4ea2|active
+Alpha Southlake|2d8d98c1-1553-4282-af12-a183b4d5f246|active
+Alpha Summer Camps|3d94d687-6fed-42dd-8a22-d4ed7240e5d2|active
+Alpha Tampa|dd93d468-605d-4867-a68a-c561a60e2ae6|active
+Alpha The Woodlands|7a70633c-fc7f-4497-aeca-ddc4610cfc7f|active
+Alpha Toronto|f45d66de-580b-47d6-9374-cdd9de7cbdaa|active
+Alpha Tulsa|2c863cd4-a69d-4630-b940-ea7bcc741edd|active
+Alpha Williston|98bd393e-7730-4d2e-8389-0d285720ffee|active
+Alpha World Ventures|b4f70bf9-54fd-4137-9698-384d18992f50|active
+Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf|active
+Austin Preschool Spyglass|af636193-09dd-4aed-9980-992de0be460f|inactive
+Brownsville K-8|95ece7e5-2047-45d7-822f-354232179e23|active
+Brownsville Preschool|838bccf1-596b-4c96-ae06-e091fa59c022|inactive
+Cancelled sites|f047b8d2-15e9-4f7a-b8ef-99b3f63ff397|active
+Carrolton Sports Academy|b04b9974-10a7-4b2d-8f2b-7a53b859b505|active
+Central|d7906bd7-62b7-4de9-801d-6c2150154d1f|active
+Dallas|452f71cf-452e-4cc8-9af2-1cf94593533c|inactive
+Founders Hub|6259ab88-d582-4b27-95d4-2ab5e9bea4dd|active
+GauntletAI|6ce3ebe7-3c1f-4560-8b11-5761961ac416|active
+GT Anywhere|8aa47193-d8e1-4bf0-a90a-b67716ec59b5|active
+GT School Georgetown|d895eb1b-f1b6-4d6b-84f1-4111df1d48ba|active
+GT Summer Camp|dc7d2dfa-74b7-49aa-ab13-d44bac826960|active
+HISD|9e180837-e0f1-49d8-a7fb-0a64b6a5bd08|active
+Irvington High School|7212a2f0-60f2-434c-8f64-25d183430664|active
+LPC|10280fef-dcde-4d4b-9ec4-25c7d7b6cae1|inactive
+LZR|7fe565b2-6760-4a90-b302-b5b06a03a5d1|inactive
+Montessorium|92c1a2ac-a587-4805-bed4-dc7b5989f4a8|active
+NextGen Academy|2234d1e1-d4be-4035-8996-7b46e9e2cb86|active
+Nova Academy Austin|068a8aa1-bf1b-49c0-977b-f2c30d082a2a|active
+Nova Academy Bastrop|42f071aa-e039-4b51-9d51-3d65ffe4b482|active
+Novatio School AZ|f56cc953-e1c9-40e4-b9fe-2e45bc3c4f7f|active
+San Antonio|32214f4a-4460-433c-a97e-608964ab2ad3|inactive
+Silicon Valley|15217eaa-1fae-4c73-87ed-a09b6dec06fb|active
+Strata Software|b83cb849-60a1-4e78-9a17-1327120f6d09|active
+Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb|active
+TSA Anywhere|a28133d8-9050-4d19-a601-15e129b9361e|active
+Unbound (SC)|a0fc8630-9e9d-4fbf-85be-e6797132b004|active
+Unbound AZ|db4a9e02-a8a1-4c07-a78b-90e0aa5feedb|active
+Waypoint Academy|26dd8be1-3f64-4eda-a267-2c772dee16b4|active
