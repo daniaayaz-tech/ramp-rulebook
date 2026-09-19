@@ -1,0 +1,1353 @@
+# Cardholder+Merchant rules from Dania's rulebook (HIGH sheet). Format: Cardholder|Merchant|CategoryOptionUUID/DepartmentOptionUUID|Category name|Department name
+# Priority: memo keywords > THIS FILE > merchant_map.txt. Match cardholder (first+last, case-insensitive) AND merchant (case-insensitive, exact).
+Julianne Braime|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Emily Neal|Uber|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Jenna Klemm|Uber|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+J.R. Houston|Anthropic|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Jackie Chan|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+William Stanton|Uber|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Jenna Klemm|doordash|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Jen Sun|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Jacob Frisch|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Shelby Pollard|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Brian Holtz|Facebook Ads|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+J.R. Houston|Uber Eats|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Keith Wong|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Alpha Billing|Intuit|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+MacKenzie Price|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+J.R. Houston|Uber|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+J.R. Houston|TaskRabbit|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Parthvi  Harde|Uber|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Jessica Staggs|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Daniela Orozco|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Matt Shenker|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Ian Huggins|Archer Van Rentals|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Zara Raheem|Uber|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Chris Hayes|Amazon|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Ian Huggins|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Ginhee Rancourt|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Julianne Braime|TaskRabbit|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Logan Higuera|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Stefanie Baduria|Perplexity AI|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Emma Simon|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Creighton North|Uber|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Kristopher Ponder-Bisping|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Mary Shroll|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Katarina Smith|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+William Stanton|Starbucks|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Maria Mejia|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Maria Mejia|Instacart|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Santi Orozco|Amazon|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Matt Shenker|Outschool|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+May Dobbs|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Sean McKenna|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Noah Rodriguez|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Dania Duran|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Ree Yeakley|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Sara Leightman|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Ian Huggins|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Brian Holtz|Amazon|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Chris Locke|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Ian Huggins|Instacart|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Michaela Bosco|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Carrington Haas|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Caitlin deMello|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Taraya  Voelker|Uber Eats|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Chloe Belvin|Wyzant|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Scott Cody|3rd Place Coffee|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Desire Park|National Entertainment Network|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Lauren Hammond|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chris Hayes|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Derek Kim|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Faith Crenshaw|PayPro Global|9038e0df-0205-4a90-a24c-de788e7f6929/58649769-32ae-4fdd-a8a9-bb1ea8f0d2e8|Program:Workshops|L1
+Joanna Lovejoy|Delta Air Lines|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Garrett Rigby|sweetgreen|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Christie Ray|Amazon|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Alpha Billing|BLASIAN EXECUTIVE SECURED TRANSPORT|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Taylor Sweeney|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Andrew Jordan|Uber|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Jack Oremus|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Kevin Kongslie|MTA|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Garrett Rigby|Flower Child|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Emma Simon|Amazon|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Santi Orozco|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Stefanie Baduria|Uber Eats|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Jebin Justin|Jo's Coffee|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Brian Holtz|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Robbie Forrest|Uber|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Robbie Forrest|Matterport|e5c0b18b-381d-400e-86a5-55624661d4ab/7f20ace8-74a0-4861-9ddc-deab799f9356|Other Expenses:Renovations/Furnishings|ADM-Apps/Software
+Alpha Billing|Read Meeting Manager|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Garrett Rigby|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Kimberley Kimberley|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Alexandria Cruz|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Stefanie Baduria|Anthropic|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Grant Cain|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Dania Duran|TaskRabbit|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Dania Duran|Instacart|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Timothy Berry|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Scott Cody|Dune Coffee Roasters|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Cameron Sorsby|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Mackenzie Post|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jason Tan|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kristopher Ponder-Bisping|Yousician|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Andrew Casebier|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Camren Allred|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Christie Ray|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Morgan Routh|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+William Stanton|Uber Eats|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Mallory Carranza|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Scott Cody|doordash|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jason Tan|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Maria Mejia|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Emily Neal|United|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+J.R. Houston|Hertz|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Cyndie Jensen|H-E-B|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Stefanie Baduria|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Shelby Pollard|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Kirsten Berg|Lyft|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Raya Belton|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Matt Shenker|Uber|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Erica Kinney|Uber|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Alice Lee|Delta Air Lines|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Daniela Orozco|Uber Eats|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Joe Marone|Anthropic|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Kathrine Ledesma|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Natasha Lince|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Christina Romero|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Joshua Lezmi|American Airlines|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Lauren Hammond|ERB|9038e0df-0205-4a90-a24c-de788e7f6929/2d9bdec8-3cd0-4a05-a7fd-d9075693430d|Program:Workshops|L3
+Greg Annan|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Andy Gibson|Starbucks|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Alpha Billing|Spectrum|1b1897ae-6578-456b-8be0-08100407a969/27d4b776-9b6e-406d-82ff-b5aa8f2f4d05|Facilities/Support:Utilities|FAC-Internet
+Andrew Jordan|American Airlines|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Gaston Griffin|Southwest Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Chris Locke|Www.Ultimatereviewpack|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Tetiana Vozniuk Pierson|Suno AI|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jebin Justin|Royal Blue Grocery|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Samuel Anderson|Southwest Airlines|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Zara Raheem|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Garrett Rigby|Chipotle|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Derek Triebwasser|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Anna Slaby|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/1ffdaa1f-28dd-4649-8420-13d7a8a9b459|Program:Workshops|Preschool
+Zoe Zimmerman|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jackie Chan|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Shannon Peifer|Uber|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Andrea Ewalefo|Uber|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Jenna Petrungaro|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jim Liu|Luxury Limousine|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Scott Cody|Amazon|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Shannon Peifer|Instacart|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Ian Huggins|TaskRabbit|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Raya Belton|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Alice Lee|Lyft|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Derek Bergmann|Amtrak|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Crystal Cybulski|Chess.com|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chris Locke|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Bailie Grant|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Caitlin Arzu|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Whitney Bunn|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Hannah Burkhauser|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jesse Moskowitz|Uber|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Logan Higuera|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+England Reddy|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Cece Hill|Uber|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Bianca Mgbemere|Uber|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Jim Liu|Axcess Catering & Events|cb039dfe-3662-4666-99d0-284d396147ab/288d0c4f-c752-42ae-8f48-cd7ebb1eb114|Food Services:Lunch Program|STU-Lunch
+Brian Holtz|Paypal|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Christina Romero|United|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Shannon Peifer|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Darby Knox|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Ginhee Rancourt|Uber Eats|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Sanura Njaka|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Chazz Roper|Repl.it|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Matt Shenker|Suno AI|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Derek Kim|Waymo|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+J.R. Houston|Vivo|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Chris Locke|Wyzant|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Katarina Smith|Cursor|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Derek Kim|OpenRouter|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Michaela Bosco|Uber|60b29945-8bfb-47b2-b09d-33549798a5ee/572ae87a-002a-4f59-a94b-fa88e02fac9a|Facilities/Support:Transportation|FAC-Transportation
+Jenna Klemm|MTA|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Audri Wolfaardt|ezCater|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Tamara Friend|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Andy Gibson|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Caitlin Arzu|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Tim Sheehy|Publix|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Jack Oremus|Lyft|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Morgan Routh|Paypal|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Andrew Jordan|Southwest Airlines|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Jeremy Richards|Amazon|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Jebin Justin|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Jen Sun|doordash|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Laura Mazer|Instacart|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Julie Parrish|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/e75ca665-4d9a-4177-8e79-70c352f48e5e|Administration:Marketing|MKT-Travel
+Phoebe Weaver|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Brian Holtz|in8 media|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Crystle Dorsey|Hertz|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Brian Holtz|Google Ads|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Greg Foote|Perplexity AI|e5c0b18b-381d-400e-86a5-55624661d4ab/7f20ace8-74a0-4861-9ddc-deab799f9356|Other Expenses:Renovations/Furnishings|ADM-Apps/Software
+Jeremy Richards|The Home Depot|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Audri Wolfaardt|Uber Eats|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Taraya  Voelker|HighLevel|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Garrett Rigby|Chick-fil-A|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Brittany Kemme|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Sunny Lulla|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Tyisha Brooks|Walmart|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Noah Lightfoot|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Zijin Zhang|Amazon|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Scott Cody|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jenna Petrungaro|Flavors Cafe|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Samantha DePalo|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jackie Chan|Walmart|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Jebin Justin|Cursor|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Carrington Haas|Amazon|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Daniela Orozco|Instacart|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Jebin Justin|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Tim Sheehy|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/58649769-32ae-4fdd-a8a9-bb1ea8f0d2e8|Program:Workshops|L1
+Cole Dougherty|Adobe|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Bianca Mgbemere|Lyft|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Samantha Hilton|Teachers Pay Teachers|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jessica Staggs|Buy It Vending|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Taraya  Voelker|West Elm|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Brian Holtz|Evie & Leo|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Crystle Dorsey|Southwest Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Joanna Lovejoy|Allianz Travel Insurance|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Caitlin Calzadilla|KidStrong Kendall|9038e0df-0205-4a90-a24c-de788e7f6929/e3c825a7-ee50-4833-a9be-21092535b4ce|Program:Workshops|LL
+MacKenzie Price|Amazon|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jebin Justin|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Stephanie Dean|Amazon|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Andrew Jordan|New South Parking|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Tripp Larkey III|Uber Eats|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Ginhee Rancourt|Apple Services|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Mary Shroll|Uber|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Garrett Rigby|Royal Blue Grocery|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Chloe Belvin|X|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Alpha Billing|Alpha|2d72e7d6-c869-4ba1-b55a-01ff0dc3ac0d/22ef5859-99a5-45f1-8b40-3ba868122586|Administration:Misc Fees|ADM-Other admin cost
+Aaron Crute|Gonsanchez|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Joanna Lovejoy|Airbnb|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Andrew Jordan|United|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Crystle Dorsey|Hilton Hotels|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Dania Duran|Staples|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Christopher Ahrens|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Israel Adesina|Estes Rockets|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+DJ Tripoli|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jacob Frisch|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Benjamin Gordon Sniffen|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jackie Chan|Instacart|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Jackie Chan|Uber Eats|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Kele Mkpado|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Althea Kearney|Apple|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Derek Kim|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Derek Kim|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Tamara Friend|Canva|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Derek Kim|Lyft|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Taraya  Voelker|Wayfair|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Audri Wolfaardt|Placemakr|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Brian Holtz|Four Gifts Publishing|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+MacKenzie Price|Meta|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Audri Wolfaardt|Southwest Airlines|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Kirsten Berg|Factor|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Alpha Billing|Travis Co Wcid No 10|1b1897ae-6578-456b-8be0-08100407a969/3fcbc884-3718-4834-8122-bf2ea8a51efc|Facilities/Support:Utilities|FAC-Electricity/Water
+Chloe Belvin|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Taraya  Voelker|TaskRabbit|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Patrick Francia|Skyroam|1b1897ae-6578-456b-8be0-08100407a969/27d4b776-9b6e-406d-82ff-b5aa8f2f4d05|Facilities/Support:Utilities|FAC-Internet
+Kele Mkpado|Instacart|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Stephanie Dean|Staples|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Zara Raheem|doordash|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Gabbi Piazza|Walmart|9038e0df-0205-4a90-a24c-de788e7f6929/331d0fc7-2cb5-4a2a-8810-141ff94bec34|Program:Workshops|After School
+Kele Mkpado|Anthropic|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Zac DeJovine|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Joanna Sanner|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jeremy Richards|Uber|60b29945-8bfb-47b2-b09d-33549798a5ee/572ae87a-002a-4f59-a94b-fa88e02fac9a|Facilities/Support:Transportation|FAC-Transportation
+Logan Higuera|Uber|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Derek Rinks|Starbucks|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Tim Sheehy|Starbucks|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Andy Gibson|Ampersand|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Alpha Billing|Travis County WCID|1b1897ae-6578-456b-8be0-08100407a969/3fcbc884-3718-4834-8122-bf2ea8a51efc|Facilities/Support:Utilities|FAC-Electricity/Water
+Jebin Justin|Centro|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Jim Liu|Taste Catering|cb039dfe-3662-4666-99d0-284d396147ab/288d0c4f-c752-42ae-8f48-cd7ebb1eb114|Food Services:Lunch Program|STU-Lunch
+Jackie Chan|Evolution|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Alpha Billing|Zoho|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Kirsten Berg|Stitch Fix|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Andrew Jordan|Enterprise|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Matt Starolis|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Sara Leightman|Target|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Ginhee Rancourt|Southwest Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jackie Chan|Target|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Jenna York|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Chris Locke|Perplexity AI|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Stephanie Gasch|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Sara Leightman|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Bailie Grant|TaskRabbit|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Crystle Dorsey|Albuquerque International Sunport|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Taylor Sweeney|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Alice Lee|doordash|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Tetiana Vozniuk Pierson|Outschool|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jenna Petrungaro|Chopt Creative Salad Co.|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Andrew Jordan|7-Eleven|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Taraya  Voelker|Paypal|e5c0b18b-381d-400e-86a5-55624661d4ab/a6788d45-3091-43cd-919b-274428da62f2|Other Expenses:Renovations/Furnishings|FAC-Buildout
+J.R. Houston|Quick and Efficient|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Parthsarthi Parthsarthi|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+J.R. Houston|Airbnb|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Creighton North|American Airlines|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Jim Liu|Sense Fleet Repair|60b29945-8bfb-47b2-b09d-33549798a5ee/572ae87a-002a-4f59-a94b-fa88e02fac9a|Facilities/Support:Transportation|FAC-Transportation
+Chloe Belvin|Curious Curious Cardi|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Brian Holtz|Contra|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Christopher Ahrens|Archer Van Rentals|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jen Sun|KidStrong Kendall|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jason Tan|Instacart|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kathrine Boye|United|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Santi Orozco|Repl.it|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Linnie Kazer|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Joe Livingstone|Amazon|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+David Beaton|Love's Travel Stop|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Rob Eakin|Amazon|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jebin Justin|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Parthsarthi Parthsarthi|Calendly|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Christina Morris|Uber|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Joe Marone|Make|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Audri Wolfaardt|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Logan Higuera|Lyft|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Chris Locke|X|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Andrew Jordan|Eractoll|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Nick Huynh|Uber|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Tyisha Brooks|Teachers Pay Teachers|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jason Tan|REC TECHNOLOGY CORPORATION|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Carson Lehmann|REC TECHNOLOGY CORPORATION|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jenna Klemm|Paperless Post|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Creighton North|Austin Moving Forward|e5c0b18b-381d-400e-86a5-55624661d4ab/a6788d45-3091-43cd-919b-274428da62f2|Other Expenses:Renovations/Furnishings|FAC-Buildout
+J.R. Houston|Williams Sonoma|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Jim Liu|Turcotte Butchers & Delicatessen|cb039dfe-3662-4666-99d0-284d396147ab/288d0c4f-c752-42ae-8f48-cd7ebb1eb114|Food Services:Lunch Program|STU-Lunch
+Creighton North|Courtyard by Marriott|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Ian Huggins|Austin MacWorks|cc9ba2fb-627e-4ea4-b4d8-1dff2d93a990/ea478a51-8512-42a1-a28c-07fc144d0910|Program:Computers|STU-Computers
+Keith Wong|Archer Van Rentals|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Lauren Marques|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Alexandria Cruz|TaskRabbit|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Matt Shenker|TaskRabbit|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Chazz Roper|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jawaan Delaney|Base44|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Shaaswat Singh|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jenna Klemm|Rinse|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Chloe Belvin|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Jackie Chan|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Caitlin Calzadilla|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/e3c825a7-ee50-4833-a9be-21092535b4ce|Program:Motivation Model|LL
+David Beaton|BUC-EE'S|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Joanna Lovejoy|The Museum of Modern Art|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Graham Spraker|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Chris Locke|Vercel|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Zijin Zhang|doordash|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Gaston Griffin|Anthropic|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Samuel Anderson|Uber Eats|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Kristopher Ponder-Bisping|Cs Roblox|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Crystal Cybulski|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+May Dobbs|Kroger|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Natasha Lince|Ta'Con Todo|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Jenna York|Uber|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Jenna Petrungaro|sweetgreen|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Emily Findley|Suno AI|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Holly Haygood|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Krys Davis|Openai|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Patricia Kelley|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Cole Dougherty|Death To Stock|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Brian Holtz|Zoom|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Ree Yeakley|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Andrew Jordan|QuikTrip|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Andy Gibson|La La Land Kind Cafe|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Stephanie Gasch|Bastrop Cafe|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jason Tan|Waymo|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Taraya  Voelker|Data Center Warehouse|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+J.R. Houston|Lowe's|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Alpha Billing|Cintas|a6ad5f92-1ac6-48e6-8fb9-508912dc88c5/5e376c90-93c1-4c9a-93ba-9843efa9406f|Inter Company Loan|FAC-Other facilities cost
+J.R. Houston|Turo|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Timothy Berry|American Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Alpha Billing|Texas Gas Service|1b1897ae-6578-456b-8be0-08100407a969/4c26ce9c-44db-489d-82fe-798f416fdbe4|Facilities/Support:Utilities|FAC-Other Utilities
+Chloe Belvin|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Creighton North|United|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Patrick Francia|PODS|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Cole Dougherty|Crux Climbing Center|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Sarah Moore|Delta Air Lines|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Joanna Lovejoy|El Capitan Hotel|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Matt Shenker|Fry's Food Stores|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Kirsten Berg|Michaels|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Parthsarthi Parthsarthi|Perplexity AI|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Maria Mejia|Starlink|1b1897ae-6578-456b-8be0-08100407a969/27d4b776-9b6e-406d-82ff-b5aa8f2f4d05|Facilities/Support:Utilities|FAC-Internet
+Desire Park|Target|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Emily Neal|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+May Dobbs|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Derek Triebwasser|Instacart|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Garrett Rigby|Torchy's Tacos|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Chris Locke|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Julianne Braime|FedEx|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Carrington Haas|Merit Coffee|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Paige Fults|Starlink|1b1897ae-6578-456b-8be0-08100407a969/27d4b776-9b6e-406d-82ff-b5aa8f2f4d05|Facilities/Support:Utilities|FAC-Internet
+Benjamin Gordon Sniffen|Canva|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Stephanie Dean|Canva|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Noah Lightfoot|Burger Bar|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Matt Shenker|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Luke Phillips|Delta Air Lines|9038e0df-0205-4a90-a24c-de788e7f6929/57f3d76f-ebca-4f16-a9ab-7e9af0ec1298|Program:Workshops|L2
+Andrea Ewalefo|doordash|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Nathan Witkin|Uber Eats|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jenna Klemm|Apple|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Allie Bradian|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Greg Foote|Uber|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Chloe Belvin|Www.Ultimatereviewpack|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Chloe Belvin|Heimler Tutoring|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Brian Holtz|Squarespace|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Lauren Marques|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Tyisha Brooks|Amazon|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Ginhee Rancourt|Starbucks|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Derek Kim|Clipper|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Emily Neal|Flavors Cafe|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Timothy Berry|SUMMIT COFFEE|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Santi Orozco|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Timothy Berry|PARKING|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Derek Rinks|Dune Coffee Roasters|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Natasha Lince|The Henry Studio|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Kevin Kongslie|Pas Passpt Huntngt Pr|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Matt Shenker|Starbucks|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Israel Adesina|lime|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Natasha Lince|Certus Manufacturing|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Nat Eliason|MTA|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Aaron Crute|Poe Legacy Construction|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Alpha Billing|Sifted|a6ad5f92-1ac6-48e6-8fb9-508912dc88c5/288d0c4f-c752-42ae-8f48-cd7ebb1eb114|Inter Company Loan|STU-Lunch
+Taraya  Voelker|KW Handyman Miami|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Scott Cody|MissionField|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jim Liu|Made You Hungry|cb039dfe-3662-4666-99d0-284d396147ab/288d0c4f-c752-42ae-8f48-cd7ebb1eb114|Food Services:Lunch Program|STU-Lunch
+Jim Liu|EK4KIDS|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jim Liu|CharterUP|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jackie Chan|Etsy|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Aaron Crute|Tasklet|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Andrea Ewalefo|Enterprise|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Andrew Jordan|Courtyard by Marriott|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Joanna Lovejoy|Public Storage|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Chloe Belvin|Workflowy|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Robbie Forrest|United|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Kirsten Berg|Hyatt|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Allie Bradian|Instacart|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Shannon Peifer|Mail Center USA|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Stephanie Dean|The Greater Raleigh Chamber of Commerce|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Michaela Bosco|Squaw Creek Golf Course|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Scott Cody|Walmart|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Matt Shenker|JVN|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jack Oremus|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Garrett Rigby|TACO PEGASO|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Noah Lightfoot|Piqueo's|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Gaston Griffin|Austin-Bergstrom International Airport|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Scott Cody|Drift Santa Barbara|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Kirsten Berg|Etsy|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Nathan Witkin|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/331d0fc7-2cb5-4a2a-8810-141ff94bec34|Program:Workshops|After School
+Keith Wong|H-E-B|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chris Locke|KRR|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Parthsarthi Parthsarthi|Cursor|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Jebin Justin|X|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Jesse Moskowitz|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Kathrine Boye|Lyft|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Andrea Ewalefo|Whole Foods Market|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Joanna Sanner|Allianz Travel Insurance|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Aaron Crute|Parking Management Company|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Ashley Storms|Adobe|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Taraya  Voelker|IONOS by 1&1|e5c0b18b-381d-400e-86a5-55624661d4ab/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Other Expenses:Renovations/Furnishings|ADM-Office supplies
+DJ Tripoli|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Emily Neal|Starbucks|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Joanna Sanner|PARKING|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Parthsarthi Parthsarthi|Repl.it|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Taraya  Voelker|Openai|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Alexandria Cruz|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Logan Higuera|Paypal|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Cole Dougherty|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Sanura Njaka|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Joe Marone|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Effy Phillips|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Scott Cody|In-N-Out Burger|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Chloe Belvin|Capcut|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Lauren Hammond|Royal Blue Grocery|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Creighton North|Hudson News|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Effy Phillips|Hilton Hotels|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Jenna Klemm|Chick-fil-A|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Jenna Klemm|Teachers Pay Teachers|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jenna Klemm|Airbnb|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Taraya  Voelker|CB2|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Alpha Billing|PARKING|47607d93-abc8-46ba-b89e-c0e4630b7cfb/a7769f70-b833-444b-9f87-80b1e80a0b46|Facilities/Support:Rent|FAC-Rent
+Tara Stephenson|Vivo|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Joanna Lovejoy|Black Tie Technology Inc.|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chloe Belvin|Vending|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Julianne Braime|La Parisienne|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Scott Cody|Irvine Printing|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Patrick Francia|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Joanna Sanner|American Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Andrew Jordan|Delta Air Lines|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Stephanie Dean|FedEx|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Andrea Ewalefo|United|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Andrew Jordan|Marriott|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Kirsten Berg|Best Buy|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jack Oremus|ezCater|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+J.R. Houston|PODS|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+William Stanton|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kelvin Childress|Target|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Julie Parrish|United|b65c3db2-4261-4c53-a640-4fbc79fe6586/e75ca665-4d9a-4177-8e79-70c352f48e5e|Administration:Marketing|MKT-Travel
+Greg Foote|Zoneomics|e5c0b18b-381d-400e-86a5-55624661d4ab/7f20ace8-74a0-4861-9ddc-deab799f9356|Other Expenses:Renovations/Furnishings|ADM-Apps/Software
+Desire Park|Antojos|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Garrett Rigby|Tacodeli|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Cyndie Jensen|Etsy|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Jessica Staggs|Walmart|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jim Liu|At Home|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Taraya  Voelker|Skyroam|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Charity Thompson|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/e3c825a7-ee50-4833-a9be-21092535b4ce|Program:Motivation Model|LL
+Robbie Forrest|Uber Eats|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Kele Mkpado|Pressed Juicery|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Chris Locke|Paypal|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jenna Klemm|CorePower Yoga|bea9a857-49ed-4551-9736-dff3b8ca6383/178abf83-79b4-4f72-a9b1-78b18377e904|Other current Assets|ADM-Staff Amenities
+Kele Mkpado|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Allie Bradian|Cox Science Center and Aquarium|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Allie Bradian|Walmart|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Michaela Bosco|TaskRabbit|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Sarah Moore|TaskRabbit|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Braden Pomerantz|Amazon|2650915d-1688-4a19-a822-3ec73ac88e81/e3c825a7-ee50-4833-a9be-21092535b4ce|Program:Motivation Model|LL
+Daniela Orozco|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Morgan Routh|Arizona Science Center|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Benjamin Gordon Sniffen|Perplexity AI|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Joanna Sanner|Uber Eats|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Mia Schaubhut|Instacart|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Joe Marone|Tella|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Andrew Jordan|Allianz Travel Insurance|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Parthsarthi Parthsarthi|Adobe|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Patrick Kern|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Evan Ore|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Linnie Kazer|Walgreens|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jennifer Greenham|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Samuel Anderson|Grubhub|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Brian Holtz|ReadyRefresh|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Taraya  Voelker|Spacely AI|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Emily Neal|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Tanya Parker|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Julie Parrish|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Brian Holtz|Framer|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Chauncey Nartey|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jenna York|Publix|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Chloe Belvin|Stackblitz|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Chloe Belvin|Shopify|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Chloe Belvin|Postwise|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Jack Oremus|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Taylor Sweeney|Royal Blue Grocery|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Audri Wolfaardt|Anthropic|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Andrea Ewalefo|Amazon|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Jacob Frisch|sweetgreen|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Charlotte Rosenblum|Uber|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Derek Kim|Safeway|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Shannon Prior|Teachers Pay Teachers|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jenna Petrungaro|Target|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kelvin Childress|Roku, Inc|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Tim Sheehy|Pita Fresh|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Chloe Belvin|ElevenLabs|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Garrett Rigby|Cursor|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Carson Lehmann|Cursor|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Andy Gibson|Adobe|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Emily Findley|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Taylor Sweeney|Canva|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Tamara Friend|Dockside Inn And Suites|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+England Reddy|Equator Coffees|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Krys Davis|Anthropic|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Benjamin Gordon Sniffen|Runway|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Scott Dangerfield|Teachers Pay Teachers|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Andrea Ewalefo|Starbucks|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Santi Orozco|Uber|bea9a857-49ed-4551-9736-dff3b8ca6383/178abf83-79b4-4f72-a9b1-78b18377e904|Other current Assets|ADM-Staff Amenities
+Kirsten Berg|Mcdonald's|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jebin Justin|The Austinite Market|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Giana Hesterberg|Starbucks|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Crystle Dorsey|New Mexico Pinon Coffee|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jeremy Richards|Passport|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/4c7680fd-9150-4389-9e04-781f31db90c9|Facilities/Support:Repairs and Maintenance|ADM-Travel
+Bianca Mgbemere|North Loop Food Store|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Jebin Justin|Lucky Lab Coffee|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Patrick Francia|Universal Exports|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Alpha Billing|Rippling|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Alpha Billing|SaaSOptics|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Taraya  Voelker|Rent Payment|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Gaby Guajardo|Paypal|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Austin Ray|The Joseph, a Luxury Collection Hotel, Nashville|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+MacKenzie Price|Brazilian Court Hotel|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Joanna Sanner|Delta Vacations|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Joanna Lovejoy|Cinnamon Shore|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+J.R. Houston|School Outfitters|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Jim Liu|Prime Charter Bus|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Crystal Cybulski|Best Buy|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Aaron Crute|Best Buy|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Kathrine Ledesma|Origin Hotel Red Rocks|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Emily Neal|British Airways|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Aaron Crute|Residence Inn|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Emily Neal|Olfactory NYC|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Tim Sheehy|Aloft|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Dania Duran|Walmart|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+MacKenzie Price|United|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Katarina Smith|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Malu Delgado|Isla Grand Beach Resort|36407afd-3ff1-4645-8fcf-2284540fcc3f/af1a10b5-7bd3-4239-98ed-01bb9a8804a9|Administration:Meals and Entertainment|ADM-Staff Events
+Patrick Francia|Luxury Limousine|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Maria Mejia|American Airlines|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Ginhee Rancourt|Young Art Lessons|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Joe Marone|Notion Labs|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Tim Sheehy|Marriott|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Phoebe Weaver|United|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Cyndie Jensen|ReadyRefresh|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Aaron Crute|TaskRabbit|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Santi Orozco|CustomInk|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Patrick Francia|Southwest Airlines|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Raya Belton|Etsy|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Cole Dougherty|The Home Depot|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Garrett Rigby|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Jim Liu|Lowe's|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Michaela Bosco|Mcleland Tennis Center|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chris Locke|H-E-B|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Jack Oremus|Perplexity AI|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+MacKenzie Price|LinkedIn|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Luke Phillips|The Hive|9038e0df-0205-4a90-a24c-de788e7f6929/57f3d76f-ebca-4f16-a9ab-7e9af0ec1298|Program:Workshops|L2
+Aaron Crute|Lowe's|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Allie Bradian|Spartan Race|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kathleen Jeremiassen|Einstein Bros. Bagels|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Gabbi Piazza|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/331d0fc7-2cb5-4a2a-8810-141ff94bec34|Program:Workshops|After School
+Jesse Moskowitz|Barnes & Noble|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chris Locke|Delta Air Lines|b65c3db2-4261-4c53-a640-4fbc79fe6586/e75ca665-4d9a-4177-8e79-70c352f48e5e|Administration:Marketing|MKT-Travel
+Faith Crenshaw|Paypal|9038e0df-0205-4a90-a24c-de788e7f6929/58649769-32ae-4fdd-a8a9-bb1ea8f0d2e8|Program:Workshops|L1
+Jawaan Delaney|BarChi Sushi|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Carrington Haas|Uber Eats|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Kele Mkpado|FedEx|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Cassie Blessing|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Matt Shenker|Miro|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+William Stanton|Old Mates|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Michaela Bosco|The Container Store|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+J.R. Houston|Vickers Koffee & Kocktails|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Zara Raheem|TaskRabbit|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Brittany Kemme|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Alexandria Cruz|Amazon|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Zara Raheem|Instacart|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Althea Kearney|Uber Eats|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Holly Haygood|Music & Arts|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Sanura Njaka|Chess.com|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Zara Raheem|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Gabbi Piazza|Sam's Club|9038e0df-0205-4a90-a24c-de788e7f6929/331d0fc7-2cb5-4a2a-8810-141ff94bec34|Program:Workshops|After School
+Brian Holtz|Typeform|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Lauren Marques|Target|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+May Dobbs|Grubhub|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Whitney Snow|PARKING|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Timothy Berry|Allianz Travel Insurance|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Scott Cody|Calendly|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+David Beaton|Circle K|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Jenna Klemm|Canva|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Alpha Billing|Google Cloud|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Chris Hayes|Dockside Inn And Suites|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Andrew Jordan|Uber Eats|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Garrett Rigby|P. Terry's Burger Stand|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Kirsten Berg|USPS|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Stefanie Baduria|Uber|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Audri Wolfaardt|Lyft|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Prathima Venkatesan|Instacart|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Cameron Sorsby|Bagel Market|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Alice Lee|Uber|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Jen Sun|Exxon|60b29945-8bfb-47b2-b09d-33549798a5ee/572ae87a-002a-4f59-a94b-fa88e02fac9a|Facilities/Support:Transportation|FAC-Transportation
+Jamari Gilbert|Shell|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+J.R. Houston|RaceTrac|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Matt Starolis|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Tyisha Brooks|Warmies|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+J.R. Houston|BUC-EE'S|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Tyisha Brooks|Glitch Bar|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Matt Shenker|DistroKid|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Derek Rinks|Santa Barbara Home Imp|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Scott Dangerfield|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jebin Justin|KRR|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Grant Cain|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Bryce Derry|KidMania|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Kathleen Jeremiassen|Adobe|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jebin Justin|Flower Child|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Taylor Sweeney|Parking Management Company|60b29945-8bfb-47b2-b09d-33549798a5ee/572ae87a-002a-4f59-a94b-fa88e02fac9a|Facilities/Support:Transportation|FAC-Transportation
+Taylor Sweeney|Base44|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Holly Haygood|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Mallory Carranza|WWF|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Ree Yeakley|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Andy Gibson|Original ChopShop|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Whitney Snow|Uber|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Carson Lehmann|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Scott Cody|Openai|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jen Sun|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Tanya Parker|Perplexity AI|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Katarina Smith|Squarespace|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+William Stanton|Lyft|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Zara Raheem|Cvs Pharmacy|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Scott Dangerfield|Canva|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Patrick Francia|Nest|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Benjamin Gordon Sniffen|Cursor|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Shaaswat Singh|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Noah Lightfoot|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jessica Staggs|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Brian Burkhard|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Malu Delgado|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Mary Shroll|Lyft|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Kathrine Ledesma|Uber|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Bryce Derry|Starbucks|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jenna Klemm|Sheetz|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Jebin Justin|Vercel|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Austin Ray|Starbucks|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Crystle Dorsey|Circle K|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Tanya Parker|PayPro Global|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Maria Mejia|Canva|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Audri Wolfaardt|Canva|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Jenna Klemm|Baya Bar|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Alice Lee|Starbucks|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Emily Neal|Midjourney|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kathrine Boye|Substack|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Audri Wolfaardt|Uber|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Carrington Haas|Uber|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Andrew Jordan|Circle K|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Alexandria Cruz|Workflowy|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Malu Delgado|Workflowy|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Chloe Belvin|WriterDuet|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Emily Findley|ElevenLabs|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Joshua Lezmi|The New York Times|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Zara Raheem|MTA|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Taraya  Voelker|Poe Legacy Construction|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+J.R. Houston|Topjob|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+David Beaton|Airbnb|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Kevin Kongslie|B&H Photo|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Jim Liu|Van Country Rentals|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Cece Hill|360Learning|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Chris Locke|Flinn Scientific|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+J.R. Houston|Avis Rent a Car|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Joanna Lovejoy|BLASIAN EXECUTIVE SECURED TRANSPORT|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Zara Raheem|Best Buy|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Bailie Grant|Inflate-A-Party|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Cole Dougherty|Mesa Rim|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Parthsarthi Parthsarthi|Google Play|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Jenna York|FedEx|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Alpha Billing|Google Workspace|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Tim Sheehy|Kasa Living|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Tim Sheehy|Embassy Suites by Hilton|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Luke Phillips|Christy Sports|9038e0df-0205-4a90-a24c-de788e7f6929/57f3d76f-ebca-4f16-a9ab-7e9af0ec1298|Program:Workshops|L2
+Stefanie Baduria|Wes Kao Course|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Cole Dougherty|Paypal|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Alpha Billing|TXU Energy|1b1897ae-6578-456b-8be0-08100407a969/3fcbc884-3718-4834-8122-bf2ea8a51efc|Facilities/Support:Utilities|FAC-Electricity/Water
+Robbie Forrest|American Airlines|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Turker Bulut|Hubspot|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Alice Lee|Hyatt|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Alice Lee|Delta Stays|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Kirsten Berg|Fyxer AI|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+J.R. Houston|Perfect Moving And Stora|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Scott Cody|Courtyard by Marriott|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Scott Cody|The Steward|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Julianne Braime|Lice Mamas|2d72e7d6-c869-4ba1-b55a-01ff0dc3ac0d/22ef5859-99a5-45f1-8b40-3ba868122586|Administration:Misc Fees|ADM-Other admin cost
+Scott Cody|French Florist|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Taylor Sweeney|Flower Child|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Timothy Berry|Hyatt Place|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Andy Gibson|American Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Nat Eliason|Delta Air Lines|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Jack Oremus|ZenBusiness|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Alpha Billing|Grande Communications|1b1897ae-6578-456b-8be0-08100407a969/27d4b776-9b6e-406d-82ff-b5aa8f2f4d05|Facilities/Support:Utilities|FAC-Internet
+Erica Kinney|American Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Chris Locke|Carolina Biological Supply Co|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Sanura Njaka|Sewing Solutions Hub|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+MacKenzie Price|Southwest Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Taraya  Voelker|PLAUD NOTE|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Aaron Crute|HomeGoods|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Kirsten Berg|La Femme de La Mer|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Alpha Billing|Republic Services|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/4ae97705-15c6-4fa2-a589-2acadf282602|Facilities/Support:Repairs and Maintenance|FAC-Waste/Recycle
+Alpha Billing|Xfinity|1b1897ae-6578-456b-8be0-08100407a969/27d4b776-9b6e-406d-82ff-b5aa8f2f4d05|Facilities/Support:Utilities|FAC-Internet
+Joshua Lezmi|Les Ailes Du Desir|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chris Locke|American Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/e75ca665-4d9a-4177-8e79-70c352f48e5e|Administration:Marketing|MKT-Travel
+Matt Shenker|Notion Labs|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Patrick Francia|Starlink|1b1897ae-6578-456b-8be0-08100407a969/27d4b776-9b6e-406d-82ff-b5aa8f2f4d05|Facilities/Support:Utilities|FAC-Internet
+Julie Parrish|Southwest Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/e75ca665-4d9a-4177-8e79-70c352f48e5e|Administration:Marketing|MKT-Travel
+Gaston Griffin|Embassy Suites by Hilton|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Parthsarthi Parthsarthi|Notion Labs|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Bailie Grant|MINUTEMAN PRESS|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Carrington Haas|Southwest Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Andrew Casebier|CrossFit|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+William Stanton|iFly SF Bay|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jim Liu|Grainger Industrial Supply|60b29945-8bfb-47b2-b09d-33549798a5ee/572ae87a-002a-4f59-a94b-fa88e02fac9a|Facilities/Support:Transportation|FAC-Transportation
+MacKenzie Price|Expedia|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Julianne Braime|Target|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Prathima Venkatesan|Staples|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Paige Fults|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Alpha Billing|AT&T|1b1897ae-6578-456b-8be0-08100407a969/27d4b776-9b6e-406d-82ff-b5aa8f2f4d05|Facilities/Support:Utilities|FAC-Internet
+Paige Fults|Fox Rent A Car|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Ginhee Rancourt|Amw Amway Order|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Robbie Forrest|Southwest Airlines|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Austin Ray|United|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Timothy Berry|Hyatt|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Stephanie Dean|Vistaprint|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jen Sun|Target|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Ginhee Rancourt|Shutterstock|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+MacKenzie Price|Openai|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Crystal Cybulski|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Allie Bradian|Kravis Center|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Andrew Jordan|Sixt|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Brian Holtz|TaskRabbit|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Bianca Mgbemere|Delta Air Lines|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Aaron Crute|Anthropic|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Rachel Fontenot|ABC Home and Commercial|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5dfc1ede-19ce-4d6d-ad0d-5a125da25c8f|Facilities/Support:Repairs and Maintenance|FAC-Pest Control
+Hannah Burkhauser|Southwest Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Alpha Billing|Starlink|1b1897ae-6578-456b-8be0-08100407a969/27d4b776-9b6e-406d-82ff-b5aa8f2f4d05|Facilities/Support:Utilities|FAC-Internet
+Matt Shenker|The Studio|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Taylor Sweeney|Piqueo's|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Israel Adesina|Chick-fil-A|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jawaan Delaney|Chick-fil-A|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Israel Adesina|TCGplayer|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Israel Adesina|Piqueo's|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Kirsten Berg|JETSET Pilates|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Alpha Billing|Formstack|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Parthsarthi Parthsarthi|Lucidchart|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+J.R. Houston|Brightline|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Andrew Casebier|Validation Ale|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Patrick Francia|Anthropic|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Stefanie Baduria|LinkedIn|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+MacKenzie Price|Leadpages|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Parthsarthi Parthsarthi|Workflowy|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Stephanie Gasch|The Home Depot|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+MacKenzie Price|Wistia|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Luke Phillips|Uber Eats|9038e0df-0205-4a90-a24c-de788e7f6929/57f3d76f-ebca-4f16-a9ab-7e9af0ec1298|Program:Workshops|L2
+Bryce Derry|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Christopher Ahrens|Lowe's|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+J.R. Houston|Heavy Handed|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Kathleen Jeremiassen|Tiff'S Treats|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Michaela Bosco|Public Storage|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Crystle Dorsey|Openai|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Tyisha Brooks|Cvs Pharmacy|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Scott Cody|Superhuman|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Crystal Cybulski|Canva|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+MacKenzie Price|Zoom|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Garrett Rigby|Workflowy|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Shannon Peifer|Rma Toll|60b29945-8bfb-47b2-b09d-33549798a5ee/572ae87a-002a-4f59-a94b-fa88e02fac9a|Facilities/Support:Transportation|FAC-Transportation
+Evan Ore|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+MacKenzie Price|Zapier|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Alpha Billing|Smartsheet|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Prathima Venkatesan|From You Flowers|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Kirsten Berg|LinkedIn|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Kelvin Childress|Costco|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Lauren Hammond|Hokkaisan|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Brian Holtz|Comcast|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Graham Spraker|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Andrew Casebier|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Creighton North|Anthropic|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Taraya  Voelker|Lyft|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Andy Gibson|AT&T|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Chris Locke|Austin-Bergstrom International Airport|b65c3db2-4261-4c53-a640-4fbc79fe6586/e75ca665-4d9a-4177-8e79-70c352f48e5e|Administration:Marketing|MKT-Travel
+Victoria Schoch|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+May Dobbs|Sprouts Farmers Market|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Grant Cain|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Joshua Lezmi|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Ree Yeakley|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Rob Eakin|Instacart|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Grant Cain|Midjourney|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jen Sun|TaskRabbit|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Crystle Dorsey|Starbucks|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+MacKenzie Price|ART19, Inc.|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Faith Crenshaw|Canva|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Shaaswat Singh|Google Ads|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chris Locke|P. Terry's Burger Stand|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Stefanie Baduria|Designs.ai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Parthsarthi Parthsarthi|Rocket Math|a25663af-f41d-44fa-921d-05d942b075e0/f3922f16-b8fa-4a04-895c-dc2e8c35b0ce|Program:Apps|STU-Apps/Software
+Jebin Justin|Workflowy|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Tim Sheehy|Chevron|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Tyisha Brooks|Fangamer|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Chazz Roper|Scenario|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Whitney Bunn|Uber|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Kirsten Berg|Rover.com|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jawaan Delaney|Gamestop|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jessica Staggs|Etsy|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Timothy Berry|Uber Eats|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Stephanie Dean|Superhuman|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Emily Neal|Lawdistric|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kele Mkpado|Office Depot|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Krys Davis|Bitly|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Shannon Peifer|EZ TAG|60b29945-8bfb-47b2-b09d-33549798a5ee/572ae87a-002a-4f59-a94b-fa88e02fac9a|Facilities/Support:Transportation|FAC-Transportation
+Stephanie Dean|doordash|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jason Tan|Next Insurance|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chris Locke|sweetgreen|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Whitney Bunn|Adobe|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Andy Gibson|Read Meeting Manager|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Timothy Berry|Read Meeting Manager|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Whitney Bunn|Spreadshirt|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Stefanie Baduria|The New York Times|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Derek Kim|Repl.it|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Luke Phillips|Canva|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Graham Spraker|Gamma|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Emily Neal|Lumin PDF|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Tetiana Vozniuk Pierson|Canva|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Sean McKenna|Read Meeting Manager|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Scott Cody|Renewed Vision|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jebin Justin|sweetgreen|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Greg Foote|Uber Eats|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Sanura Njaka|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Carson Lehmann|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Graham Spraker|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Noah Lightfoot|Fetii|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+MacKenzie Price|BUC-EE'S|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Tim Sheehy|Chick-fil-A|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Jack Oremus|Tunnel Flight|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+David Beaton|Clipto|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Jennifer Maddox|Chuck E. Cheese|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Desire Park|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+MacKenzie Price|Nextdoor|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Michaela Bosco|Canva|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Andy Gibson|Zoom|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Aaron Crute|Jo's Coffee|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Holly Haygood|Apple Services|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Katarina Smith|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Garrett Rigby|Apple Services|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Alexandria Cruz|Adobe|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Alexandria Cruz|Capcut|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Victoria Schoch|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kathrine Ledesma|Anthropic|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Derek Kim|Cursor|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Bryan Gordon|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Kathrine Ledesma|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Desire Park|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Chris Hayes|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Keith Wong|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Israel Adesina|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Bryce Derry|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+David Beaton|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Lauren Marques|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Emma Simon|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Phillip Perkins|Openai|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Lauren Hammond|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Carrington Haas|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Mallory Carranza|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Taylor Sweeney|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Whitney Bunn|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Brian Holtz|Openai|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Kathrine Boye|Openai|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Kele Mkpado|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Shannon Peifer|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Stephanie Dean|Openai|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+DJ Tripoli|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Eric Salgado|Openai|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+David Beaton|Read Meeting Manager|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Noah Lightfoot|Base44|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kirsten Berg|Sniffspot|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Prathima Venkatesan|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+MacKenzie Price|Capcut|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Austin Ray|Adobe|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Andy Gibson|CAVA|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Garrett Rigby|Repl.it|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Lauren Marques|Chess.com|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kevin Kongslie|Hudson News|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Desire Park|Teachers Pay Teachers|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Stefanie Baduria|fireflies.ai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Christopher Ahrens|H-E-B|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Derek Kim|San Francisco Bay Area|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Matt Shenker|Zoom|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Andy Gibson|Amazon Prime|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Alpha Billing|Education.Com|a25663af-f41d-44fa-921d-05d942b075e0/f3922f16-b8fa-4a04-895c-dc2e8c35b0ce|Program:Apps|STU-Apps/Software
+Sanura Njaka|Canva|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Crystle Dorsey|Canva|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Tim Sheehy|YouTube Premium|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Brian Holtz|YouTube Premium|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Audri Wolfaardt|Htldisc|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Graham Spraker|Canva|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Andy Gibson|Canva|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Emily Findley|Wisp.Gg|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Cece Hill|Canva|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Courtney Fenner|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Robbie Forrest|Starbucks|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Beau Sydes|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Brian Holtz|FedEx|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Benjamin Gordon Sniffen|Calendly|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Andy Gibson|Calendly|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Chazz Roper|ClassEquity|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Andy Gibson|Chick-fil-A|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Chloe Belvin|Heroku|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Andy Gibson|Reclaim.ai|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Alexandria Cruz|Cricut|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Chloe Belvin|NVIDIA|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Scott Dangerfield|Twinkl|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Faith Crenshaw|Substack|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Krys Davis|Gamma|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Kathrine Boye|Gamma|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Bryce Derry|Substack|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Lauren Hammond|Gamma|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Logan Higuera|Orai|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Stefanie Baduria|Education Week|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Douglas Green|Uber|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Derek Triebwasser|Uber|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Allie Bradian|Workflowy|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Emily Neal|Workflowy|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jawaan Delaney|Auntie Anne's Pretzels|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+J.R. Houston|Starbucks|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Aaron Crute|lime|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Jawaan Delaney|Ranasar Llc|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Ian Huggins|lime|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+William Stanton|Conde Nast|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+William Stanton|Typing.Com|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Alice Lee|MTA|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Jebin Justin|MTA|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Althea Kearney|PARKING|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Aaron Crute|Data Center Warehouse|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Audri Wolfaardt|The Commun|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Alpha Billing|Good Guard Security, Inc.|a6ad5f92-1ac6-48e6-8fb9-508912dc88c5/e4ab8b47-3f5f-479b-b33e-364f47fbb83e|Inter Company Loan|FAC-Security services
+Alpha Billing|Bay Area Janitorial Forc|a6ad5f92-1ac6-48e6-8fb9-508912dc88c5/dd41e6f4-f0a2-4bf3-9b61-175a026c25fc|Inter Company Loan|FAC-Janitorial
+Turker Bulut|AdAired Digital Media|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Althea Kearney|West Elm|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+J.R. Houston|Seattle Coffee Gear|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Alpha Billing|Georgetown University|a6ad5f92-1ac6-48e6-8fb9-508912dc88c5/3fcbc884-3718-4834-8122-bf2ea8a51efc|Inter Company Loan|FAC-Electricity/Water
+Joanna Lovejoy|Air Canada|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+J.R. Houston|Yeti|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Emily Neal|Broadway|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Patrick Francia|Blue Pond Signs|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Zara Raheem|Virgin|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Faith Crenshaw|Eastside Paddle Club|9038e0df-0205-4a90-a24c-de788e7f6929/58649769-32ae-4fdd-a8a9-bb1ea8f0d2e8|Program:Workshops|L1
+Joanna Lovejoy|Lesson Pro|9038e0df-0205-4a90-a24c-de788e7f6929/331d0fc7-2cb5-4a2a-8810-141ff94bec34|Program:Workshops|After School
+Zara Raheem|Scribbles USA|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Ian Huggins|Momentum Charters|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Julianne Braime|Real Thread|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Zara Raheem|Apple|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Shannon Peifer|NextATM|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Taraya  Voelker|Hotel Colonnade|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Taraya  Voelker|Fohlio|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Brian Holtz|United|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Allison de Leo|Airbnb|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+J.R. Houston|CB2|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Chris Locke|Even Realities|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Joanna Lovejoy|Eataly|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Alpha Billing|Waste Connections|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/4ae97705-15c6-4fa2-a589-2acadf282602|Facilities/Support:Repairs and Maintenance|FAC-Waste/Recycle
+J.R. Houston|Serviced in Dade|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Taraya  Voelker|Hotel Citrine, Palo Alto, a Tribute Portfolio Hotel|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Matt Shenker|Guitar Center|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Greg Foote|American Airlines|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+J.R. Houston|The Home Depot|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Julie Parrish|Intercontinental Hotel Group|b65c3db2-4261-4c53-a640-4fbc79fe6586/e75ca665-4d9a-4177-8e79-70c352f48e5e|Administration:Marketing|MKT-Travel
+Taraya  Voelker|Autograph Collection Hotels|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Austin Ray|Marriott|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Bailie Grant|UPS|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Aaron Crute|FedEx|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Ashley Storms|Isla Grand Beach Resort|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Andrew Jordan|Hertz|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+J.R. Houston|Penske Truck Rental|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Alpha Billing|Slack|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Jennifer Greenham|Mendi.io|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Scott Cody|The Granada Theatre|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Shannon Peifer|SmartSign|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Aaron Crute|Austin Luxe Staging and Design|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Natasha Lince|Archer Van Rentals|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jim Liu|Wayfair|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Scott Cody|Graze Craze|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Audri Wolfaardt|American Airlines|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Joanna Sanner|Delta Stays|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Joanna Sanner|Embassy Suites by Hilton|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Noah Lightfoot|Amazon|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Gaston Griffin|Delta Air Lines|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Zara Raheem|Marriott|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Andrea Ewalefo|Residence Inn|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Andrew Casebier|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kirsten Berg|The Westin|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Kathrine Ledesma|Extra Space Storage|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Benjamin Gordon Sniffen|American Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Chris Locke|ezCater|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jenna Klemm|Imse|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chris Locke|ElevenLabs|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Kele Mkpado|Vuori Clothing|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Christina Romero|Hyatt|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Crystle Dorsey|Home 2 Suites by Hilton|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Kirsten Berg|Target|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Derek Rinks|Heavenly Hawaiian|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Timothy Berry|Hertz|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Shannon Peifer|Fish Whisper|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Althea Kearney|TaskRabbit|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Matt Shenker|Absolutely Ridiculous|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Andrew Jordan|Amazon|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+J.R. Houston|Rally|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Kele Mkpado|TaskRabbit|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Tim Sheehy|Budget Car Rental|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Gaby Guajardo|Amazon|36407afd-3ff1-4645-8fcf-2284540fcc3f/af1a10b5-7bd3-4239-98ed-01bb9a8804a9|Administration:Meals and Entertainment|ADM-Staff Events
+Aaron Crute|Sam's Club|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Gaston Griffin|Hampton Inn|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Gabbi Piazza|United|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Gaston Griffin|Courtyard by Marriott|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Kirsten Berg|Equinox|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Stephanie Dean|North Carolina Association of Independent Schools|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+MacKenzie Price|Sheraton|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Dania Duran|DICK'S Sporting Goods|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Michaela Bosco|Cowtown Marathon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jennifer Maddox|Sent Church|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Logan Higuera|DICK'S Sporting Goods|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Maria Mejia|Nespresso|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Jennifer Greenham|U-Haul|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Lauren Hammond|Walmart|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Tim Sheehy|SpringHill Suites|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Charlotte Rosenblum|Backcountry|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Patrick Francia|Hotel Chicago|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Alexandria Cruz|Walmart|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Chloe Belvin|Tweet Hunter|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+David Beaton|Hilton Hotels|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Jacob Frisch|H-E-B|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Kirsten Berg|Chamber of Commerce of the Palm Beaches|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Kelvin Childress|REBA's|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Lauren Hammond|The Home Depot|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Andrew Jordan|Aloft|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Ree Yeakley|Meshy LLC|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Natasha Lince|HomeGoods|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Kirsten Berg|Roman|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Joshua Lezmi|Uber Eats|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Tamara Friend|Universal's Aventura Hotel|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Matt Shenker|Southwest Airlines|36407afd-3ff1-4645-8fcf-2284540fcc3f/af1a10b5-7bd3-4239-98ed-01bb9a8804a9|Administration:Meals and Entertainment|ADM-Staff Events
+Julianne Braime|Jellycat|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Althea Kearney|Hyatt|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Shannon Peifer|Sp Mcguire Moorman H Restaurant|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Zijin Zhang|ERB|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Emily Neal|ERB|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Shannon Peifer|Tlf Freytags Northwest F|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Alpha Billing|Cox|1b1897ae-6578-456b-8be0-08100407a969/27d4b776-9b6e-406d-82ff-b5aa8f2f4d05|Facilities/Support:Utilities|FAC-Internet
+Ashley Storms|Public Storage|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Taraya  Voelker|Masterclass|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Katarina Smith|Slack|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Joanna Lovejoy|Fever|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Audri Wolfaardt|Fox Rent A Car|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Patricio Rosas Hernandez|Instacart|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jim Liu|Storage Xxtra|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Creighton North|Trimble Inc.|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Charlotte Rosenblum|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Santi Orozco|Gift Cards|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Desire Park|Five Below|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jason Tan|Intuit|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Lauren Hammond|North Italia|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Austin Ray|Anthropic|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Greg Annan|BUC-EE'S|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Andrew Casebier|Chipotle|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Stephanie Dean|Target|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jack Oremus|Google One|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Shannon Peifer|Target|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Taylor Sweeney|BarChi Sushi|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jim Liu|TaskRabbit|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Jack Oremus|Higgsfield|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Whitney Snow|Pine Tree Cafe|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chris Locke|Chick-fil-A|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Ian Huggins|Culligan of Austin|1b1897ae-6578-456b-8be0-08100407a969/4c26ce9c-44db-489d-82fe-798f416fdbe4|Facilities/Support:Utilities|FAC-Other Utilities
+Turker Bulut|Framer|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Gaby Guajardo|Dropbox|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Andrew Casebier|CorePower Yoga|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Paige Fults|Perplexity AI|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Garrett Rigby|Squarespace|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Tanya Parker|H-E-B|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jim Liu|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Ella Alexander|Amazon|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jeremy Richards|U-Haul|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost
+Stephanie Dean|Wegmans|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Evan Ore|Amazon|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Andy Gibson|Whole Foods Market|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Andrew Jordan|Travel Guard|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Chris Locke|Read Meeting Manager|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Noah Lightfoot|SUSHI ROKU|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Althea Kearney|Trimble Inc.|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Jason Tan|FedEx|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Derek Rinks|The Westin|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Audri Wolfaardt|Lovable|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Courtney Fenner|Signs.com|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Cole Dougherty|Panini America|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Shaaswat Singh|Bill's Oyster|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Kevin Kongslie|Tribeca Beverage Company|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
+Effy Phillips|Rephonic|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Chloe Belvin|Learn By Doing, Inc.|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Scott Cody|SB Biergarten|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Kathrine Ledesma|Culligan Water Of The Tri|1b1897ae-6578-456b-8be0-08100407a969/4c26ce9c-44db-489d-82fe-798f416fdbe4|Facilities/Support:Utilities|FAC-Other Utilities
+Jawaan Delaney|North Italia|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Daniela Orozco|Lyric Theatre Restaurant|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kirsten Berg|YouTube TV|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+LISA C. WILLIS|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Garrett Rigby|Burger Bar|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Andrew Casebier|The Win~Dow Hollywood|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Charlotte Rosenblum|Burger Bar|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Shannon Peifer|Breed & Company|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Chloe Belvin|Traject Data|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Chris Locke|GoDaddy|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Audri Wolfaardt|Read Meeting Manager|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+J.R. Houston|Apple|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Prathima Venkatesan|Southwest Airlines|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Turker Bulut|Squarespace|b65c3db2-4261-4c53-a640-4fbc79fe6586/7f20ace8-74a0-4861-9ddc-deab799f9356|Administration:Marketing|ADM-Apps/Software
+Jen Sun|Publix|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Brian Burkhard|Lovable|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Israel Adesina|Apogee Components|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Crystle Dorsey|Uber Eats|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Greg Foote|Austin-Bergstrom International Airport|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Andrew Casebier|Santa Barbara|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Kirsten Berg|WEST PALM BEACH|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Jacob Frisch|Starbucks|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+MacKenzie Price|Typeform|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+MacKenzie Price|Www.Kit.De|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Michaela Bosco|Wayfair|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Bryan Gordon|Lyft|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Grant Cain|Gamma|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Mackenzie Shiau|Walgreens|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Douglas Green|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Jenna York|Target|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Kathrine Ledesma|Whole Foods Market|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+J.R. Houston|BP|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+J.R. Houston|Shell|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Mia Schaubhut|Cinepolis Usa Restaurant|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Benjamin Gordon Sniffen|Base44|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kirsten Berg|Starlink|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Maria Mejia|Delta Air Lines|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jason Tan|Wix|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chris Locke|ReelFarm|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Emily Findley|Sandcastles|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Garrett Rigby|JABS|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Jawaan Delaney|JuiceLand|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+David Beaton|Sunoco|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Jawaan Delaney|LEGO|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Beau Sydes|SteamGames.com|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Brian Holtz|Vercel|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Cece Hill|Amazon|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Joe Marone|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Nathan Witkin|Chess.com|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Stephanie Gasch|Isla Grand Beach Resort|36407afd-3ff1-4645-8fcf-2284540fcc3f/af1a10b5-7bd3-4239-98ed-01bb9a8804a9|Administration:Meals and Entertainment|ADM-Staff Events
+Scott Cody|Chevron|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Kevin Kongslie|Uber Eats|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Ginhee Rancourt|7-Eleven|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jebin Justin|Local Foods|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Samantha Hilton|Korner Market|60b29945-8bfb-47b2-b09d-33549798a5ee/572ae87a-002a-4f59-a94b-fa88e02fac9a|Facilities/Support:Transportation|FAC-Transportation
+Jenna Petrungaro|Anthropic|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Stefanie Baduria|Manus AI|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Sara Leightman|FedEx|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Cameron Sorsby|Adobe|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Rob Eakin|Walgreens|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Shannon Peifer|Tacodeli|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Kathrine Ledesma|Trader Joe's|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Chloe Belvin|Sp Synty Store|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Althea Kearney|Austin Airport F&B Restaurant|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Emily Findley|Upwork|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Andrew Casebier|QuikTrip|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+DJ Tripoli|Jazwares|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Maria Mejia|UPS|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Benjamin Gordon Sniffen|Adobe|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Tamara Friend|FedEx|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jack Oremus|Klaviyo|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Kele Mkpado|Ralphs|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Stephanie Gasch|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Stephanie Dean|Patch|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jenna Klemm|Spring Mart|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+J.R. Houston|Joe & The Juice|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Katarina Smith|ScreensDesign|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Jack Oremus|Tutored By Design|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+MacKenzie Price|Panasonic Avionics|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Ashley Storms|Austin-Bergstrom International Airport|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chazz Roper|RapidAPI|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jebin Justin|Austin Airport F&B Restaurant|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Ashley Storms|Texaco|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Creighton North|Coffee Project New York|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Noah Lightfoot|Tiburon Lockers|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Andrew Jordan|Parking Management Company|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Jenna York|Carpenters Hall|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
+Andrew Jordan|Austin Airport F&B Restaurant|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Joshua Lezmi|Famous AI|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Caitlin Arzu|GetQR|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Taylor Sweeney|Lavaca Street Bar at Rock Rose|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Emily Findley|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Santi Orozco|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Charlotte Rosenblum|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Samantha DePalo|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+MacKenzie Price|Curb Taxi App|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Matt Shenker|SpotHero|36407afd-3ff1-4645-8fcf-2284540fcc3f/af1a10b5-7bd3-4239-98ed-01bb9a8804a9|Administration:Meals and Entertainment|ADM-Staff Events
+Laura Mazer|Uber Eats|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Kathleen Jeremiassen|H-E-B|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Tamara Friend|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Ashley Storms|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Scott Cody|Starbucks|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Althea Kearney|Genspark|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Jason Tan|Repl.it|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Katarina Smith|Crown Awards|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Brian Holtz|DNSFilter|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Jebin Justin|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
+Patrick Francia|Sutter Stockton Garage|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Creighton North|Joe & The Juice|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Benjamin Gordon Sniffen|Jippity|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chris Locke|Heimler Tutoring|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Garrett Rigby|ElevenLabs|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Zijin Zhang|Starbucks|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Charlotte Rosenblum|Pokemaniacs|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Hannah Burkhauser|Tacodeli|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Derek Rinks|Poke House|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Andrew Casebier|Spotify|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chris Locke|Atlanta|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Chris Locke|South Point Hotel Casino & Spa|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Scott Cody|Polina Cafe|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Santi Orozco|SteamGames.com|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jenna Petrungaro|Read Meeting Manager|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Ian Huggins|The Austinite Market|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Crystal Cybulski|PayPro Global|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Sanura Njaka|Cursor|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Joshua Lezmi|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Zijin Zhang|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Patrick Kern|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Linnie Kazer|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Shannon Prior|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Cameron Sorsby|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Andy Gibson|Openai|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Graham Spraker|Openai|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Tanya Parker|Uber|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Charlotte Rosenblum|Flavors Cafe|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Sanura Njaka|Twin Pics|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Whitney Snow|Waymo|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Stefanie Baduria|Storyboard Hero|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Andy Gibson|Shake Shack|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Linnie Kazer|Freeconvert.Com|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Luke Phillips|Macy's|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jessica Criss|P. Terry's Burger Stand|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Christian Gordon|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Logan Higuera|Vimcal|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jenna Klemm|Stone Street Cafe|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Ree Yeakley|Piano Marvel|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Althea Kearney|Pas Passpt Austin Prk|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Tetiana Vozniuk Pierson|Tracfone Airtime|1b1897ae-6578-456b-8be0-08100407a969/4c26ce9c-44db-489d-82fe-798f416fdbe4|Facilities/Support:Utilities|FAC-Other Utilities
+Jessica Criss|Circle K|36407afd-3ff1-4645-8fcf-2284540fcc3f/af1a10b5-7bd3-4239-98ed-01bb9a8804a9|Administration:Meals and Entertainment|ADM-Staff Events
+Patrick Francia|Best Sicily Bottega|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Holly Haygood|Canva|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Logan Higuera|Canva|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Jack Oremus|ManyChat|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Jackie Chan|Canva|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Andy Gibson|Anthropic|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Morgan Routh|Gimkit|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Ian Huggins|Passport|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Ashley Storms|Canva|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Logan Higuera|Durable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Samantha DePalo|Padlet|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Malu Delgado|Canva|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Stefanie Baduria|Blinkist|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Alice Lee|Flavors Cafe|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Jawaan Delaney|Spencer Gifts #253|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Zoe Zimmerman|Uber|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Brian Holtz|DreamBox Learning|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+J.R. Houston|ARCO|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
+Prathima Venkatesan|Starbucks|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Mackenzie Post|Dropbox|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Shannon Peifer|Royal Blue Grocery|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Crystal Cybulski|ClassEquity|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Jenna Petrungaro|Base44|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Tamara Friend|Google Play|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Gabbi Piazza|Google Play|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Jesse Moskowitz|Torchy's Tacos|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Andrew Jordan|Airport|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Jason Tan|Safeway|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Lauren Hammond|Desnudo Coffee|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Chloe Belvin|Paypal|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Benjamin Gordon Sniffen|Suno AI|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Prathima Venkatesan|Taco Bell|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Ashley Storms|Substack|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software
+Jessica Staggs|Twinkl|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Sean McKenna|Xfinity|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Chloe Belvin|X Advertising|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Kirsten Berg|404 Media|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Creighton North|Starbucks|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Malu Delgado|Uber|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Mallory Carranza|Teachers Pay Teachers|9038e0df-0205-4a90-a24c-de788e7f6929/1ffdaa1f-28dd-4649-8420-13d7a8a9b459|Program:Workshops|Preschool
+Jamari Gilbert|Smoothie King|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Maria Mejia|United|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Matt Shenker|Workflowy|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Emily Findley|United|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Joanna Sanner|Hilton Hotels|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Mary Shroll|Bird|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
+Jessica Criss|Bastrop Cafe|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Charlotte Rosenblum|Starbucks|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
+Derek Rinks|Canva|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Joe Marone|X|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
+Andy Gibson|Lt I Garage|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Linnie Kazer|Teachers Pay Teachers|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+William Stanton|Citi Bike|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Chris Locke|Appest Limited|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
+Zara Raheem|154 Scott|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
+Chris Hayes|Paypal|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Kimberley Kimberley|Teachers Pay Teachers|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Jeremy Richards|Park ATX|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/4c7680fd-9150-4389-9e04-781f31db90c9|Facilities/Support:Repairs and Maintenance|ADM-Travel

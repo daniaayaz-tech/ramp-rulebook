@@ -380,3 +380,9 @@ Zara Raheem|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Zijin Zhang|Brownsville K-8|95ece7e5-2047-45d7-822f-354232179e23
 Zoe Wollenschlaeger|Alpha High School|2f78e55a-f69d-46ba-a17b-418a0dbfe828
 Zoe Zimmerman|Alpha South Bay|4d365b02-031b-4394-88e3-c3f850ae4ea2
+Neysa King|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
+Phillip Blake|Alpha Raleigh|9a7fcfda-286e-46ee-abb4-c6bbac8222a9
+Kejuan Weaver|Alpha Fort Worth|c5b3c4fe-729f-40a3-8d49-5df3202c0350
+Aidan Lopci|Alpha Malibu|343e6f51-0a56-41fd-9282-be7c1691ce56
+Sam Johnson|Alpha Scottsdale|3f07195d-5c50-4f30-824a-9d15ebb95222
+Jordann Pascall|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
