@@ -289,7 +289,7 @@ Taraya  Voelker|Paypal|e5c0b18b-381d-400e-86a5-55624661d4ab/a6788d45-3091-43cd-9
 J.R. Houston|Quick and Efficient|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout
 Parthsarthi Parthsarthi|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
 J.R. Houston|Airbnb|4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel
-Creighton North|American Airlines|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Creighton North|American Airlines|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
 Jim Liu|Sense Fleet Repair|60b29945-8bfb-47b2-b09d-33549798a5ee/572ae87a-002a-4f59-a94b-fa88e02fac9a|Facilities/Support:Transportation|FAC-Transportation
 Chloe Belvin|Curious Curious Cardi|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
 Brian Holtz|Contra|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
