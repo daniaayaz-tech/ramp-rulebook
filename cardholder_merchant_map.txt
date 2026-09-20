@@ -337,7 +337,7 @@ Graham Spraker|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2
 Chris Locke|Vercel|9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4
 Zijin Zhang|doordash|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
 Gaston Griffin|Anthropic|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
-Samuel Anderson|Uber Eats|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
+Samuel Anderson|Uber Eats|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
 Kristopher Ponder-Bisping|Cs Roblox|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
 Crystal Cybulski|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
 May Dobbs|Kroger|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
@@ -778,7 +778,7 @@ Allie Bradian|Kravis Center|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-4
 Andrew Jordan|Sixt|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
 Brian Holtz|TaskRabbit|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
 Bianca Mgbemere|Delta Air Lines|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
-Aaron Crute|Anthropic|e5c0b18b-381d-400e-86a5-55624661d4ab/16e6869e-155f-42dd-b741-78858f05ac2d|Other Expenses:Renovations/Furnishings|STA-Staff Software
+Aaron Crute|Anthropic|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software
 Rachel Fontenot|ABC Home and Commercial|2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5dfc1ede-19ce-4d6d-ad0d-5a125da25c8f|Facilities/Support:Repairs and Maintenance|FAC-Pest Control
 Hannah Burkhauser|Southwest Airlines|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
 Alpha Billing|Starlink|1b1897ae-6578-456b-8be0-08100407a969/27d4b776-9b6e-406d-82ff-b5aa8f2f4d05|Facilities/Support:Utilities|FAC-Internet
