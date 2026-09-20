@@ -386,3 +386,4 @@ Kejuan Weaver|Alpha Fort Worth|c5b3c4fe-729f-40a3-8d49-5df3202c0350
 Aidan Lopci|Alpha Malibu|343e6f51-0a56-41fd-9282-be7c1691ce56
 Sam Johnson|Alpha Scottsdale|3f07195d-5c50-4f30-824a-9d15ebb95222
 Jordann Pascall|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
+Dakota Anderson|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
