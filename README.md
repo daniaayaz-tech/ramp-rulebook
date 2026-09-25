@@ -1,5 +1,22 @@
 # Ramp Coding Rulebook data (for the ramp-qb-coding-daily routine)
 
+## Precedence (2026-09-25)
+`memo_keyword_rules.txt` (Ladder-1 keyword rules) → `cardholder_merchant_map.txt` → `merchant_map.txt` → Needs review.
+Class is separate (`cardholder_class.txt`). No memo or placeholder memo → never code.
+
+## memo_keyword_rules.txt
+Generated from the Google Sheet **"Ramp Rule Book - Final"**, tab **Ladder-1** (the source of truth; do not hand-edit the file).
+Regenerate with `node tools/build_memo_keyword_rules.mjs` (needs `Projects\GSheets\credentials.json` and `Projects\RAMP\.env`
+next to this repo), review the diff, commit, push. The script also validates the sheet: priority must equal 5 − keyword-cell
+count, no duplicate keyword sets, every Category/Department must exist in Ramp.
+
+Format: `Priority|Keyword 1|Keyword 2|Keyword 3|Keyword 4|CategoryOptionUUID/DepartmentOptionUUID|Category name|Department name|Ladder-1 row|Source note`
+
+Matching: lower-case the memo and replace every non-alphanumeric character with a space. A keyword cell lists variants
+separated by ` / ` (plurals, spellings, phrases) and matches when ANY variant appears as a whole word/phrase. A rule fires only
+when ALL its non-empty keyword cells match. Lowest Priority number wins (1 = 4 keywords … 4 = 1 keyword). Ties at the winning
+priority with different Category → leave in Needs review (fix = add a more specific combination row to Ladder-1). Case is ignored.
+
 `merchant_map.txt` — one line per (Category/Department) combo:
 `<CategoryOptionUUID>/<DepartmentOptionUUID>|merchant1;merchant2;...`
 
