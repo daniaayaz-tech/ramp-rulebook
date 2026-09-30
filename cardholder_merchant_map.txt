@@ -1,4 +1,5 @@
 # Cardholder+Merchant rules from Dania's rulebook (HIGH sheet). Format: Cardholder|Merchant|CategoryOptionUUID/DepartmentOptionUUID|Category name|Department name
+# 2026-09-30: Dania (Matt Shenker review) - Matt Shenker travel merchants (Uber, Southwest Airlines, SpotHero, Hilton Hotels, United) recoded to Administration:Travel / ADM-Travel; the old Meals & Entertainment / Marketing / Workshops codings came from his earlier synced history.
 # Priority: memo keywords > THIS FILE > merchant_map.txt. Match cardholder (first+last, case-insensitive) AND merchant (case-insensitive, exact).
 Julianne Braime|Amazon|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies
 Emily Neal|Uber|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
@@ -106,7 +107,7 @@ Stefanie Baduria|Openai|8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-
 Shelby Pollard|doordash|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
 Kirsten Berg|Lyft|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
 Raya Belton|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
-Matt Shenker|Uber|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
+Matt Shenker|Uber|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
 Erica Kinney|Uber|0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses
 Alice Lee|Delta Air Lines|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
 Daniela Orozco|Uber Eats|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
@@ -1084,7 +1085,7 @@ Natasha Lince|HomeGoods|561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-
 Kirsten Berg|Roman|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
 Joshua Lezmi|Uber Eats|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
 Tamara Friend|Universal's Aventura Hotel|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
-Matt Shenker|Southwest Airlines|36407afd-3ff1-4645-8fcf-2284540fcc3f/af1a10b5-7bd3-4239-98ed-01bb9a8804a9|Administration:Meals and Entertainment|ADM-Staff Events
+Matt Shenker|Southwest Airlines|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
 Julianne Braime|Jellycat|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
 Althea Kearney|Hyatt|e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel
 Shannon Peifer|Sp Mcguire Moorman H Restaurant|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
@@ -1240,7 +1241,7 @@ Santi Orozco|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06
 Charlotte Rosenblum|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
 Samantha DePalo|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
 MacKenzie Price|Curb Taxi App|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
-Matt Shenker|SpotHero|36407afd-3ff1-4645-8fcf-2284540fcc3f/af1a10b5-7bd3-4239-98ed-01bb9a8804a9|Administration:Meals and Entertainment|ADM-Staff Events
+Matt Shenker|SpotHero|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
 Laura Mazer|Uber Eats|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
 Kathleen Jeremiassen|H-E-B|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
 Tamara Friend|Lovable|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
@@ -3086,7 +3087,7 @@ Justin Milton|target|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06
 Chauncey Nartey|edison parkfast|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
 Kathrine Boye|canopy by hilton|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
 Samantha Hilton|h-e-b|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
-Matt Shenker|hilton hotels|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
+Matt Shenker|hilton hotels|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
 Bethany Harper|metropolis|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
 Natasha Lince|starbucks|36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities
 Itziar Atorrasagastimier|doordash|2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels
@@ -3339,7 +3340,7 @@ Brittany Ore|love's travel stop|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-91
 Brian Holtz|visible|b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost
 Logan Higuera|the gift card shop|2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4
 Paige Fults|austin airport f&b restaurant|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
-Matt Shenker|united|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
+Matt Shenker|united|8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel
 Shaaswat Singh|parking management company|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
 Raya Belton|lyft|9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels
 J Houston|pappadeaux seafood kitchen|4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout

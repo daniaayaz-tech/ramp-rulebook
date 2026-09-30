@@ -274,7 +274,7 @@ Malu Delgado|Nova Academy Austin|068a8aa1-bf1b-49c0-977b-f2c30d082a2a
 Maria Mejia|Alpha San Francisco|dfc4647e-130c-459e-974a-c4bab55146e9
 Maria Zello|Alpha La Jolla|ad1bbd9b-8487-4e3c-b109-9b13f485544a
 Mary Shroll|Alpha Scottsdale|3f07195d-5c50-4f30-824a-9d15ebb95222
-Matt Shenker|Alpha La Jolla|ad1bbd9b-8487-4e3c-b109-9b13f485544a
+Matt Shenker|Alpha South Bay|4d365b02-031b-4394-88e3-c3f850ae4ea2
 Matt Starolis|GT School Georgetown|d895eb1b-f1b6-4d6b-84f1-4111df1d48ba
 Matthew Taylor|Alpha Oklahoma City (Reno)|73bb5202-66c2-45f7-a22e-f6a680fffd0c
 Maxwell Michelini|Alpha Palo Alto|2036a696-5ae7-4674-a370-27391c24b354
