@@ -1,4 +1,4 @@
-# Memo keyword rules for Ramp -> QuickBooks coding. GENERATED 2026-09-30 from Google Sheet "Ramp Rule Book - Final" (1j3lN8nGfYp-YuIhiFcK0xVpdZVfnfQzrgQy1TFdSC-E), tab Ladder-1, 3422 rules.
+# Memo keyword rules for Ramp -> QuickBooks coding. GENERATED 2026-10-01 from Google Sheet "Ramp Rule Book - Final" (1j3lN8nGfYp-YuIhiFcK0xVpdZVfnfQzrgQy1TFdSC-E), tab Ladder-1, 3422 rules.
 # Do not hand-edit: change the sheet, then run tools/build_memo_keyword_rules.mjs and push.
 # Format: Priority|Keyword 1|Keyword 2|Keyword 3|Keyword 4|CategoryOptionUUID/DepartmentOptionUUID|Category name|Department name|Ladder-1 row|Source note
 # Matching: lower-case the memo, replace every non-alphanumeric character with a space. A keyword cell lists spelling/plural variants
@@ -1096,7 +1096,7 @@
 3|motivation / motivations|session / sessions|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|4|
 3|lunch / lunches|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|5|
 3|alphax|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|6|
-3|session / sessions|travel / travels|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|7|
+3|session / sessions|travel / travels|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|7|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|uber / ubers|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|8|
 3|material / materials|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|9|
 3|meal / meals|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|10|
@@ -1113,7 +1113,7 @@
 3|flight / flights|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|21|
 3|snack / snacks|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|22|
 3|staff / staffs|supplies / supply|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|23|
-3|educational|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|24|
+3|educational|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|24|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|coffee / coffees|parent / parents|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|25|
 3|afterschool|dinner / dinners|||2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4|26|
 3|staff / staffs|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|27|
@@ -1151,7 +1151,7 @@
 3|motivational|snack / snacks|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|59|
 3|office / offices|session / sessions|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|60|
 3|model / models|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|61|
-3|meshy|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|62|
+3|meshy|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|62|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|classroom / classrooms|motivation / motivations|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|63|
 3|emporium|session 0 / session zero / session0|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|64|Reviewer fix 2026-09-28 (Ready-to-sync review, 2 verifiers agreed), applied 2026-09-29 per Dania "Update rule book": was [emporium + session / sessions] P3 Program:Workshops / Summer Camp; emporium + session was firing on every "session N" memo; only Session 0 emporium set-up is Workshops
 3|claude|motivation / motivations|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|65|
@@ -1163,7 +1163,7 @@
 3|student / students|wyzant|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|71|
 3|alphax|anthropic|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|72|
 3|classroom / classrooms|resource / resources / resourcess|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|73|
-3|activities / activity|uber / ubers|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|74|
+3|activities / activity|uber / ubers|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|74|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|student / students|unlock / unlocks|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|75|
 3|dinner / dinners|meeting / meetings|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|76|
 3|snack / snacks|unlock / unlocks|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|77|
@@ -1179,7 +1179,7 @@
 3|guide / guides|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|87|
 3|limitless|meal / meals|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|88|
 3|iac|trip / trips|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|89|
-3|emporium|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|90|
+3|emporium|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|90|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|food / foods|site|||e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel|91|
 3|alphax|resource / resources / resourcess|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|92|
 3|lab / labs|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|93|
@@ -1200,13 +1200,13 @@
 3|limitless|session / sessions|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|108|
 3|food / foods|visit / visits|||e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel|109|
 3|session0|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|110|
-3|hotel / hotels|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|111|
+3|hotel / hotels|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|111|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|perplexity|program / programs|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software|112|
 3|alphax|student / students|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|113|
 3|alphax|transportation|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|114|
 3|alphax|chatgpt|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|115|
 3|birthday / birthdays|staff / staffs|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|116|
-3|session / sessions|uber / ubers|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|117|
+3|session / sessions|uber / ubers|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|117|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|water / waters|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|118|
 3|assembly|furniture|||2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost|119|
 3|office / offices|repair / repairs|||2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost|120|
@@ -1240,7 +1240,7 @@
 3|linq|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f6796d73-a53a-4837-87be-98d944441cbb|Program:Workshops|Linc|148|
 3|experiential|flight / flights|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|149|
 3|motivational|session / sessions|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|150|
-3|instacart|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|151|Department filled 2026-09-25 from QuickBooks-synced 2026 data (was blank)
+3|instacart|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|151|Department filled 2026-09-25 from QuickBooks-synced 2026 data (was blank) / Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|national / nationals|speech|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|152|
 3|gift / gifts|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|153|
 3|prep|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|154|
@@ -1275,7 +1275,7 @@
 3|student / students|tool / tools|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|183|
 3|appreciation|session / sessions|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|184|
 3|competition / competitions|trip / trips|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|185|
-3|life|program / programs|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|186|
+3|life|program / programs|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|186|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|office / offices|refund|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|187|
 3|breakfast / breakfasts|kitchen|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|188|
 3|dinner / dinners|lead / leads|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|189|
@@ -1291,7 +1291,7 @@
 3|card / cards|game / games|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|199|
 3|attendees|food / foods|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|200|
 3|mercado|student / students|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|201|
-3|checked|flight / flights|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|202|
+3|checked|flight / flights|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|202|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|craft / crafts|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|203|
 3|deliveries / delivery|water / waters|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|204|
 3|lead / leads|traveling|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|205|
@@ -1300,7 +1300,7 @@
 3|cloud|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|208|
 3|hackathon / hackathons|hardware|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|209|
 3|national / nationals|uber / ubers|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|210|
-3|program / programs|skill / skills|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|211|
+3|program / programs|skill / skills|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|211|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|taskrabbit|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|212|
 3|birthday / birthdays|student / students|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|213|
 3|kiddos|water / waters|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|214|
@@ -1314,7 +1314,7 @@
 3|deliveries / delivery|snack / snacks|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|222|
 3|ops|perplexity|||e5c0b18b-381d-400e-86a5-55624661d4ab/7f20ace8-74a0-4861-9ddc-deab799f9356|Other Expenses:Renovations/Furnishings|ADM-Apps/Software|223|
 3|breakfast / breakfasts|club / clubs|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|224|
-3|ride / rides|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|225|
+3|ride / rides|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|225|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|motivation / motivations|unlock / unlocks|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|226|
 3|adop / adops|supplies / supply|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|227|
 3|packing|shipping|||e5c0b18b-381d-400e-86a5-55624661d4ab/a6788d45-3091-43cd-919b-274428da62f2|Other Expenses:Renovations/Furnishings|FAC-Buildout|228|
@@ -1327,7 +1327,7 @@
 3|session / sessions|tech|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|235|
 3|visit / visits|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|236|
 3|student / students|tech|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|237|
-3|lodging|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|238|
+3|lodging|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|238|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|hotel / hotels|national / nationals|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|239|
 3|afterschool|program / programs|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|240|
 3|food / foods|shadow|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|241|
@@ -1338,7 +1338,7 @@
 3|alphax|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|246|
 3|material / materials|site|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|247|
 3|maintenance|supplies / supply|||2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost|248|
-3|studio / studios|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|249|
+3|studio / studios|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|249|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|academic / academics|competition / competitions|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|250|
 3|public|transportation|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|251|
 3|perplexity|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|252|
@@ -1352,9 +1352,9 @@
 3|middle|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|260|
 3|marketing|refund|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|261|
 3|meeting / meetings|planning|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|262|
-3|car / cars|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|263|
+3|car / cars|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|263|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|quest / quests|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|264|
-3|gas|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|265|
+3|gas|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|265|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|session / sessions|storage|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|266|
 3|esports|supplies / supply|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|267|
 3|max|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|268|
@@ -1370,7 +1370,7 @@
 3|celebration / celebrations|student / students|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|278|
 3|disney|trip / trips|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|279|
 3|gift / gifts|party|||36407afd-3ff1-4645-8fcf-2284540fcc3f/af1a10b5-7bd3-4239-98ed-01bb9a8804a9|Administration:Meals and Entertainment|ADM-Staff Events|280|
-3|plant / plants|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|281|
+3|plant / plants|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|281|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|anthropic|motivation / motivations|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|282|
 3|dinner / dinners|shadow|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|283|
 3|shadow|uber / ubers|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|284|
@@ -1393,7 +1393,7 @@
 3|dinner / dinners|roadshow / roadshows|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|301|
 3|refreshment / refreshments|replenishment / replenishments|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|302|
 3|alphacore|perplexity|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software|303|
-3|session / sessions|transport|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|304|
+3|session / sessions|transport|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|304|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|grade / grades|level / levels|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|305|
 3|room / rooms|staff / staffs|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|306|Department filled 2026-09-25 from QuickBooks-synced 2026 data (was blank)
 3|event / events|printing|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|307|
@@ -1404,16 +1404,16 @@
 3|road|travel / travels|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|312|
 3|student / students|tip / tips|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|313|
 3|middle|trip / trips|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|314|
-3|material / materials|showcase|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|315|
+3|material / materials|showcase|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|315|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|builder / builders|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|316|
 3|showcase|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|317|
 3|development|motivation / motivations|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|318|
-3|openart|student / students|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|319|
-3|openart|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|320|
+3|openart|student / students|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|319|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
+3|openart|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|320|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|mobile|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|321|
-3|coordinator / coordinators|material / materials|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|322|
+3|coordinator / coordinators|material / materials|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|322|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|doordash|student / students|||2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4|323|
-3|program / programs|staff / staffs|||36407afd-3ff1-4645-8fcf-2284540fcc3f/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Meals and Entertainment|Summer Camp|324|
+3|program / programs|staff / staffs|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|324|Department Summer Camp -> ADM-Staff Amenities (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|student / students|treat / treats|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|325|
 3|t2p|uber / ubers|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|326|
 3|excursion|trip / trips|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|327|
@@ -1447,23 +1447,23 @@
 3|party|uber / ubers|||36407afd-3ff1-4645-8fcf-2284540fcc3f/af1a10b5-7bd3-4239-98ed-01bb9a8804a9|Administration:Meals and Entertainment|ADM-Staff Events|355|
 3|apparel|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|356|
 3|facilities / facility|maintenance|||2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost|357|
-3|lab / labs|snack / snacks|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|358|
+3|lab / labs|snack / snacks|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|358|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|meal / meals|room / rooms|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|359|Department filled 2026-09-25 from QuickBooks-synced 2026 data (was blank)
 3|cloud|motivation / motivations|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|360|
 3|transportation|visit / visits|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|361|
 3|meeting / meetings|recording / recordings|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|362|
 3|jar / jars|supplies / supply|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|363|
-3|expansion|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|364|Department filled 2026-09-25 from QuickBooks-synced 2026 data (was blank)
+3|expansion|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|364|Department filled 2026-09-25 from QuickBooks-synced 2026 data (was blank) / Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|money|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|365|
 3|club / clubs|motivation / motivations|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|366|
 3|attendees|lunch / lunches|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|367|
-3|airfare|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|368|
+3|airfare|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|368|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|fare|student / students|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|369|
 3|coding|cursor|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software|370|
 3|project / projects|taskrabbit|||4b6b746e-22f0-49b6-bb60-01ee6effbb85/a6788d45-3091-43cd-919b-274428da62f2|Tangible Assets|FAC-Buildout|371|
 3|recording / recordings|transcription|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software|372|
 3|assembly|service / services|||2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost|373|
-3|coordinator / coordinators|session / sessions|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|374|
+3|coordinator / coordinators|session / sessions|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|374|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|launch / launches|limitless|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|375|
 3|training|traveling|||0bb0426d-25e8-4a08-8138-fbe2abe2d591/73b26e6f-1da7-441e-957d-d7b192efbc5d|Administration:HR Expenses|ADM-HR expenses|376|
 3|limitless|motivation / motivations|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|377|
@@ -1480,7 +1480,7 @@
 3|perplexity|project / projects|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software|388|
 3|catering|event / events|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|389|
 3|cursor|tool / tools|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software|390|
-3|skill / skills|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|391|
+3|skill / skills|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|391|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|academic / academics|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|392|
 3|roadshow / roadshows|uber / ubers|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|393|
 3|chatgpt|project / projects|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software|394|
@@ -1503,11 +1503,11 @@
 3|hotel / hotels|show / shows|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|411|
 3|claude|guide / guides|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software|412|
 3|sxsw|workshop / workshops|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|413|
-3|session / sessions|stay / stays|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|414|
+3|session / sessions|stay / stays|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|414|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|morning / mornings|team / teams|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|415|
 3|hotel / hotels|t2p|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|416|
 3|lounge|staff / staffs|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|417|
-3|lyft|travel / travels|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|418|
+3|lyft|travel / travels|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|418|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|lunch / lunches|sparta|||2650915d-1688-4a19-a822-3ec73ac88e81/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Motivation Model|L4|419|
 3|iac|internationals|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|420|
 3|motivation / motivations|motivational|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|421|
@@ -1518,7 +1518,7 @@
 3|food / foods|room / rooms|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|426|Department filled 2026-09-25 from QuickBooks-synced 2026 data (was blank)
 3|public|trip / trips|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|427|
 3|camping|trip / trips|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|428|
-3|cooking|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|429|
+3|cooking|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|429|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|chatgpt|classroom / classrooms|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|430|
 3|activities / activity|cloud|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software|431|
 3|mandated|training|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|432|Department filled 2026-09-25 from QuickBooks-synced 2026 data (was blank)
@@ -1528,19 +1528,19 @@
 3|classroom / classrooms|emporium|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|436|
 3|boba|student / students|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|437|
 3|emporium|restock / restocks|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|438|
-3|flight / flights|program / programs|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|439|
+3|flight / flights|program / programs|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|439|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|reward / rewards|supplies / supply|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|440|
 3|earned|student / students|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|441|
-3|refreshment / refreshments|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|442|
+3|refreshment / refreshments|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|442|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|builder / builders|taskrabbit|||2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost|443|
-3|session / sessions|tip / tips|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|444|
+3|session / sessions|tip / tips|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|444|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|target|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|445|
 3|coordinator / coordinators|service / services|||2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost|446|
 3|activities / activity|lunch / lunches|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|447|
 3|material / materials|session0|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|448|
 3|openclaw / openclaws|trip / trips|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|449|
 3|forge|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|450|
-3|limitless|travel / travels|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|451|
+3|limitless|travel / travels|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|451|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|breakfast / breakfasts|model / models|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|452|
 3|academic / academics|lab / labs|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|453|
 3|audio|recording / recordings|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software|454|
@@ -1550,14 +1550,14 @@
 3|party|student / students|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|458|
 3|goal / goals|motivation / motivations|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|459|
 3|activities / activity|travel / travels|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|460|
-3|tip / tips|travel / travels|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|461|
-3|doordash|material / materials|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|462|
+3|tip / tips|travel / travels|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|461|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
+3|doordash|material / materials|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|462|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|motivation / motivations|shipping|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|463|
 3|afterschool|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|464|
 3|facilities / facility|taskrabbit|||2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost|465|
 3|development|operation / operations|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software|466|
 3|reward / rewards|trip / trips|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|467|
-3|session / sessions|venue|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|468|
+3|session / sessions|venue|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|468|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|behavior|motivational|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|469|
 3|claude|program / programs|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|470|
 3|office / offices|project / projects|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|471|
@@ -1566,8 +1566,8 @@
 3|guide / guides|planning|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|474|
 3|lead / leads|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|475|
 3|bonding|event / events|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|476|
-3|bus|travel / travels|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|477|
-3|meal / meals|space / spaces|||36407afd-3ff1-4645-8fcf-2284540fcc3f/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Meals and Entertainment|Summer Camp|478|
+3|bus|travel / travels|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|477|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
+3|meal / meals|space / spaces|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|478|Department Summer Camp -> ADM-Staff Amenities (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|organization|storage|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|479|
 3|catering|session / sessions|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|480|
 3|supplies / supply|training|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|481|
@@ -1601,7 +1601,7 @@
 3|breakfast / breakfasts|planning|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|510|
 3|handyman|service / services|||2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost|511|
 3|service / services|shipping|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|512|
-3|printer / printers|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|513|
+3|printer / printers|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|513|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|parent / parents|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|514|
 3|credit / credits|research|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software|515|
 3|breakfast / breakfasts|motivational|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|516|
@@ -1627,18 +1627,18 @@
 3|middle|motivation / motivations|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|536|
 3|limitless|video / videos|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|537|
 3|baking|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|538|
-3|medical|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|539|
+3|medical|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|539|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|core|motivation / motivations|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|540|
 3|starlink|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|541|
 3|card / cards|map / maps|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|542|
 3|gpt / gpts|team / teams|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software|543|
 3|afterschool|guide / guides|||36407afd-3ff1-4645-8fcf-2284540fcc3f/331d0fc7-2cb5-4a2a-8810-141ff94bec34|Administration:Meals and Entertainment|After School|544|
-3|traveling|workshop / workshops|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|545|
+3|traveling|workshop / workshops|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|545|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|event / events|marketing|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|546|
 3|board / boards|supplies / supply|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|547|
 3|coffee / coffees|office / offices|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|548|
-3|airfare|guide / guides|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|549|
-3|garden|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|550|
+3|airfare|guide / guides|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|549|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
+3|garden|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|550|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|coffee / coffees|visit / visits|||e5c0b18b-381d-400e-86a5-55624661d4ab/4c7680fd-9150-4389-9e04-781f31db90c9|Other Expenses:Renovations/Furnishings|ADM-Travel|551|
 3|limitless|recording / recordings|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|552|
 3|motivation / motivations|party|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|553|
@@ -1646,8 +1646,8 @@
 3|lyft|motivation / motivations|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|555|
 3|flight / flights|sxsw|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|556|
 3|event / events|lodging|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|557|
-3|emporium|toy / toys|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|558|
-3|app / apps|architect / architects|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|559|
+3|emporium|toy / toys|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|558|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
+3|app / apps|architect / architects|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|559|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|t2p|trip / trips|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|560|
 3|facilities / facility|lunch / lunches|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|561|
 3|internet|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|562|
@@ -1655,7 +1655,7 @@
 3|guide / guides|motivational|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|564|
 3|motivation / motivations|special|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|565|
 3|motivational|refund|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|566|
-3|lyft|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|567|
+3|lyft|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|567|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|cleaning|session / sessions|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|568|
 3|shadow|stay / stays|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|569|
 3|card / cards|emporium|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|570|
@@ -1666,7 +1666,7 @@
 3|coffee / coffees|shadow|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|575|
 3|claude|planning|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|576|
 3|ride / rides|shadow|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|577|
-3|traveling|uber / ubers|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|578|
+3|traveling|uber / ubers|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|578|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|bonding|uber / ubers|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|579|
 3|insurance|shadow|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|580|
 3|max|motivation / motivations|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|581|
@@ -1678,8 +1678,8 @@
 3|material / materials|training|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|587|
 3|lunch / lunches|test / tests|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|588|
 3|furniture|taskrabbit|||2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost|589|
-3|labor|setup|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|590|
-3|labor|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|591|
+3|labor|setup|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|590|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
+3|labor|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|591|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|vehicle|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|592|Department filled 2026-09-25 from QuickBooks-synced 2026 data (was blank)
 3|buildout / buildouts|crew|||4b6b746e-22f0-49b6-bb60-01ee6effbb85/4c7680fd-9150-4389-9e04-781f31db90c9|Tangible Assets|ADM-Travel|593|
 3|incentive / incentives|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|594|
@@ -1687,9 +1687,9 @@
 3|development|perplexity|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software|596|
 3|slack|student / students|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|597|
 3|shopping|student / students|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|598|
-3|suture / sutures|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|599|
+3|suture / sutures|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|599|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|meeting / meetings|plaud / plauds|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|600|
-3|factor|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|601|
+3|factor|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|601|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|student / students|workspace|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|602|
 3|mastery|test / tests|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|603|
 3|ticket / tickets|trip / trips|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|604|
@@ -1705,7 +1705,7 @@
 3|credit / credits|motivation / motivations|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|614|
 3|prep|uber / ubers|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|615|
 3|alphax|uber / ubers|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|616|
-3|incidental / incidentals|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|617|
+3|incidental / incidentals|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|617|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|subway|workshop / workshops|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|618|
 3|app / apps|chatgpt|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/7f20ace8-74a0-4861-9ddc-deab799f9356|Program:Software|ADM-Apps/Software|619|
 3|organizer / organizers|storage|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|620|
@@ -1723,11 +1723,11 @@
 3|parking|t2p|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|632|
 3|show / shows|uber / ubers|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|633|
 3|alphax|higgsfield|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software|634|
-3|program / programs|special|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|635|
+3|program / programs|special|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|635|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|office / offices|operation / operations|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|636|
 3|development|hotel / hotels|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|637|Department filled 2026-09-25 from QuickBooks-synced 2026 data (was blank)
 3|food / foods|road|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|638|
-3|lead / leads|student / students|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|639|
+3|lead / leads|student / students|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|639|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|pass / passes|quest / quests|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|640|
 3|lunch / lunches|parent / parents|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|641|
 3|calendly|scheduling|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|642|
@@ -1744,7 +1744,7 @@
 3|maintenance|service / services|||2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost|653|
 3|epic|meal / meals|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|654|
 3|meal / meals|mobile|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|655|
-3|amazon|skill / skills|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|656|
+3|amazon|skill / skills|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|656|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|max|refund|||8f13ffc0-ea77-4ac3-b682-6f2b4e71bb31/16e6869e-155f-42dd-b741-78858f05ac2d|Program:Software|STA-Staff Software|657|
 3|space / spaces|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|658|
 3|shipment / shipments|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|659|Department filled 2026-09-25 from QuickBooks-synced 2026 data (was blank)
@@ -1773,16 +1773,16 @@
 3|transcription|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|682|
 3|emporium|ticket / tickets|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|683|
 3|decoration / decorations|session / sessions|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|684|
-3|participant / participants|staff / staffs|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|685|Department filled 2026-09-25 from QuickBooks-synced 2026 data (was blank)
+3|participant / participants|staff / staffs|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|685|Department filled 2026-09-25 from QuickBooks-synced 2026 data (was blank) / Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|student / students|subway|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|686|
 3|information|session / sessions|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|687|
 3|lab / labs|model / models|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|688|
 3|buildout / buildouts|unit / units|||2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost|689|
 3|tech|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|690|
-3|appreciation|team / teams|||36407afd-3ff1-4645-8fcf-2284540fcc3f/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Meals and Entertainment|Summer Camp|691|
-3|airline / airlines|bag / bags|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|692|
+3|appreciation|team / teams|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|691|Department Summer Camp -> ADM-Staff Amenities (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
+3|airline / airlines|bag / bags|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|692|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|breakfast / breakfasts|session0|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|693|
-3|baggage|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/85876761-3711-4ce6-b4f3-9e49838fad22|Administration:Travel|Summer Camp|694|
+3|baggage|session / sessions|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|694|Department Summer Camp -> ADM-Travel (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|experience / experiences|motivation / motivations|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|695|
 3|development|lunch / lunches|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|696|
 3|coding|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|697|
@@ -1796,7 +1796,7 @@
 3|hardware|material / materials|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|705|
 3|gift / gifts|trip / trips|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|706|
 3|flight / flights|show / shows|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|707|
-3|architect / architects|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|708|
+3|architect / architects|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|708|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|domain|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|709|
 3|birthday / birthdays|motivation / motivations|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|710|
 3|lunch / lunches|national / nationals|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|711|
@@ -1805,7 +1805,7 @@
 3|chatgpt|marketing|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|714|
 3|meal / meals|party|||36407afd-3ff1-4645-8fcf-2284540fcc3f/af1a10b5-7bd3-4239-98ed-01bb9a8804a9|Administration:Meals and Entertainment|ADM-Staff Events|715|
 3|amazon|model / models|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|716|
-3|material / materials|robotic / robotics|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|717|
+3|material / materials|robotic / robotics|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|717|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|google|motivation / motivations|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|718|
 3|lls|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/e3c825a7-ee50-4833-a9be-21092535b4ce|Program:Workshops|LL|719|
 3|program / programs|storage|||2d17dc77-7627-4aae-a5a9-77f1d7b7b750/5e376c90-93c1-4c9a-93ba-9843efa9406f|Facilities/Support:Repairs and Maintenance|FAC-Other facilities cost|720|
@@ -1818,7 +1818,7 @@
 3|session / sessions|youtube|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|727|
 3|training|youtube|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|728|
 3|airfare|alphax|||9038e0df-0205-4a90-a24c-de788e7f6929/bc3d2f11-5397-47e2-98be-3ef694b0b936|Program:Workshops|L4|729|
-3|card / cards|incentive / incentives|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|730|
+3|card / cards|incentive / incentives|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|730|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|cintas|obo|||a6ad5f92-1ac6-48e6-8fb9-508912dc88c5/5e376c90-93c1-4c9a-93ba-9843efa9406f|Inter Company Loan|FAC-Other facilities cost|731|
 3|catering|lunch / lunches|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|732|
 3|diem|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|733|
@@ -1843,7 +1843,7 @@
 3|breakfast / breakfasts|testing|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|752|
 3|food / foods|roadshow / roadshows|||b65c3db2-4261-4c53-a640-4fbc79fe6586/91f90eff-1840-4839-b01d-625285ac0266|Administration:Marketing|MKT-Other Marketing cost|753|
 3|trip / trips|venue|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|754|
-3|participant / participants|snack / snacks|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|755|
+3|participant / participants|snack / snacks|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|755|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|emporium|experience / experiences|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|756|
 3|acl|supplies / supply|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|757|
 3|membership|staff / staffs|||36407afd-3ff1-4645-8fcf-2284540fcc3f/178abf83-79b4-4f72-a9b1-78b18377e904|Administration:Meals and Entertainment|ADM-Staff Amenities|758|
@@ -1855,7 +1855,7 @@
 3|deposit|workshop / workshops|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|764|
 3|squad|transportation|||2650915d-1688-4a19-a822-3ec73ac88e81/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Motivation Model|All Levels|765|
 3|fridge|staff / staffs|||561c581b-dd70-416b-9812-5c78ea56dc0b/1dcc3b2a-989d-45a5-8aee-4987aed1a268|Administration:Office Supplies|ADM-Office supplies|766|
-3|filament|printer / printers|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|767|
+3|filament|printer / printers|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|767|Department Summer Camp -> All Levels (2026-10-01 per Dania: Summer Camp only when the memo says camp / summer / session 0; this rule has no seasonal keyword)
 3|printer / printers|session / sessions|||9038e0df-0205-4a90-a24c-de788e7f6929/85876761-3711-4ce6-b4f3-9e49838fad22|Program:Workshops|Summer Camp|768|
 3|food / foods|t2p|||9038e0df-0205-4a90-a24c-de788e7f6929/f57f9ea9-7b1f-43f2-a06f-277319b87e7d|Program:Workshops|All Levels|769|
 3|bag / bags|training|||8e8694f5-9d39-4754-8ab2-0f73fb523328/4c7680fd-9150-4389-9e04-781f31db90c9|Administration:Travel|ADM-Travel|770|
