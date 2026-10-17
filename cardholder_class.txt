@@ -1,6 +1,7 @@
 # Cardholder -> QuickBooks Class (exact QB name) -> Ramp Class option UUID (tracking category 6edcf078-60a4-4c7d-b35e-2efa7b58c9fe)
 # Source: Active contractors Google Sheet (Teamroom, T='Yes', EDU.*) read 2026-09-27; Teamroom -> Class translation table of 2026-09-18; entries kept from the 2026-09-19 file where the cardholder is not active in the sheet or the Teamroom has no Class translation. Re-generate with scratchpad kw3/regen_cardholder_class.mjs whenever the sheet changes.
 # Format: Cardholder|Class name|Class option UUID
+# 2026-10-17 (Finance posting playbook 14 Oct 2026, fixed mappings): never post to GT School Georgetown / GT Anywhere / GT Summer Camp / Unbound / Alpha World Ventures - their cardholders are mapped to class Central (13 cardholders changed). This file is now the FALLBACK (playbook A1 step 6); memo / receipt / trip campus, Ops-team build-out site, Summer Camps and staff-trip -> Central rules come first (see README).
 Aaron Crute|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Adam Shipley|Alpha Charlotte|43c0e4fa-9ac4-4e89-8cc6-a014f48f97f4
 Aidan Lopci|Alpha Malibu|343e6f51-0a56-41fd-9282-be7c1691ce56
@@ -73,7 +74,7 @@ Celine Bernhardt-Lanier|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c06
 Charity Thompson|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Charlotte Rosenblum|Alpha Summer Camps|3d94d687-6fed-42dd-8a22-d4ed7240e5d2
 Chauncey Nartey|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
-Chazz Roper|GT School Georgetown|d895eb1b-f1b6-4d6b-84f1-4111df1d48ba
+Chazz Roper|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Cheri Salbeck|Alpha The Woodlands|7a70633c-fc7f-4497-aeca-ddc4610cfc7f
 Cheryl Kochenderfer|Alpha San Francisco|dfc4647e-130c-459e-974a-c4bab55146e9
 Chloe Belvin|Alpha High School|2f78e55a-f69d-46ba-a17b-418a0dbfe828
@@ -95,7 +96,7 @@ Courtney Crenshaw|Alpha Palm Beach|36dfde43-de04-4571-88c7-cb978ef6a1f8
 Courtney Fenner|Alpha Chantilly|0a3b86eb-0940-4c79-96c8-34d8c4ba5851
 Creighton North|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Cristy Cunningham|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
-Crystal Cybulski|GT School Georgetown|d895eb1b-f1b6-4d6b-84f1-4111df1d48ba
+Crystal Cybulski|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Crystle Dorsey|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Cyndie Jensen|Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb
 Dakota Anderson|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
@@ -144,10 +145,10 @@ Geoffrey Gary|Alpha East Bay|a99136b6-b500-47b6-a645-ec234bc38892
 Giana Hesterberg|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Ginhee Rancourt|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Graham Spraker|Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb
-Grant Cain|GT School Georgetown|d895eb1b-f1b6-4d6b-84f1-4111df1d48ba
+Grant Cain|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Grant Young|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Greg Annan|Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb
-Greg Foote|GT School Georgetown|d895eb1b-f1b6-4d6b-84f1-4111df1d48ba
+Greg Foote|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Greta Murphy|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Gretchen Dayment|Alpha La Jolla|ad1bbd9b-8487-4e3c-b109-9b13f485544a
 Hamza Afzal|Alpha Park City|aebc43ed-afbc-422c-b757-3327278833bc
@@ -198,12 +199,12 @@ Jessica Staggs|Alpha Southlake|2d8d98c1-1553-4282-af12-a183b4d5f246
 Jim Liu|Alpha Summer Camps|3d94d687-6fed-42dd-8a22-d4ed7240e5d2
 Joanna Lovejoy|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Joanna Sanner|Alpha Charlotte|43c0e4fa-9ac4-4e89-8cc6-a014f48f97f4
-Joe Livingstone|GT Anywhere|8aa47193-d8e1-4bf0-a90a-b67716ec59b5
+Joe Livingstone|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Joe Marone|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Jordan Cox|Alpha Park City|aebc43ed-afbc-422c-b757-3327278833bc
 Jordann Pascall|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Jose Gutierrez|Brownsville K-8|95ece7e5-2047-45d7-822f-354232179e23
-Joshua Goldstein|GT School Georgetown|d895eb1b-f1b6-4d6b-84f1-4111df1d48ba
+Joshua Goldstein|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Joshua Lezmi|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
 Joshua Rockers|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Julia Hier|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
@@ -219,7 +220,7 @@ Kalla Bollish|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Karina Ballesteros|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Katarina Smith|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Katherine Phelps|Alpha Southlake|2d8d98c1-1553-4282-af12-a183b4d5f246
-Kathleen Jeremiassen|GT School Georgetown|d895eb1b-f1b6-4d6b-84f1-4111df1d48ba
+Kathleen Jeremiassen|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Kathrine Boye|Alpha Denver|7cb08602-694d-4501-9635-3ccdec79094c
 Kathrine Ledesma|Brownsville K-8|95ece7e5-2047-45d7-822f-354232179e23
 Kathryn Dillman|Waypoint Academy|26dd8be1-3f64-4eda-a267-2c772dee16b4
@@ -227,7 +228,7 @@ Katie Wartman|Alpha Kirkland|f2ccb764-7270-4696-ada9-3d6840742d5b
 Kayla Almeida|Alpha Dorado|0524cd6d-8bf0-4490-bdb7-ea85d2481d61
 Kayla Hart|Alpha Boston|168aef4e-540f-4c4c-8857-8f93de8e8927
 Kayla Tumbarello|Alpha Nashville|b9ec4efc-4b84-422a-9734-6dfe1c838fb4
-Keith Wong|GT School Georgetown|d895eb1b-f1b6-4d6b-84f1-4111df1d48ba
+Keith Wong|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Kejuan Weaver|Alpha Fort Worth|c5b3c4fe-729f-40a3-8d49-5df3202c0350
 Kele Mkpado|Alpha Santa Barbara|f47817df-86d3-4f9c-916b-68d915a90277
 Kelvin Childress|Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb
@@ -253,7 +254,7 @@ Lauryn Stasiak|Alpha Orange County|523c9f68-3f1f-4cbd-b3e7-527603990d1c
 Leah Panther|Alpha Boston|168aef4e-540f-4c4c-8857-8f93de8e8927
 Lia Kim|Alpha Palo Alto|2036a696-5ae7-4674-a370-27391c24b354
 Lindsay Vanlandingham|Alpha Fort Worth|c5b3c4fe-729f-40a3-8d49-5df3202c0350
-Lindsey Ervi|GT School Georgetown|d895eb1b-f1b6-4d6b-84f1-4111df1d48ba
+Lindsey Ervi|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Linnie Gaiser|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 LISA C. WILLIS|Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb
 Logan Higuera|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
@@ -261,7 +262,7 @@ Lori Wartgow|Alpha Boca Raton|84313117-71de-4f67-9eb9-fecf82a9ad7b
 Lorine Barnabe|Alpha Orange County|523c9f68-3f1f-4cbd-b3e7-527603990d1c
 Ludel Mier|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Luke Phillips|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
-Mackenzie Post|GT Anywhere|8aa47193-d8e1-4bf0-a90a-b67716ec59b5
+Mackenzie Post|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 MacKenzie Price|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Mackenzie Shiau|Nova Academy Austin|068a8aa1-bf1b-49c0-977b-f2c30d082a2a
 Madeline Fitzgerald|Alpha Denver|7cb08602-694d-4501-9635-3ccdec79094c
@@ -275,7 +276,7 @@ Maria Mejia|Alpha San Francisco|dfc4647e-130c-459e-974a-c4bab55146e9
 Maria Zello|Alpha La Jolla|ad1bbd9b-8487-4e3c-b109-9b13f485544a
 Mary Shroll|Alpha Scottsdale|3f07195d-5c50-4f30-824a-9d15ebb95222
 Matt Shenker|Alpha South Bay|4d365b02-031b-4394-88e3-c3f850ae4ea2
-Matt Starolis|GT School Georgetown|d895eb1b-f1b6-4d6b-84f1-4111df1d48ba
+Matt Starolis|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Matthew Taylor|Alpha Oklahoma City (Reno)|73bb5202-66c2-45f7-a22e-f6a680fffd0c
 Maxwell Michelini|Alpha Palo Alto|2036a696-5ae7-4674-a370-27391c24b354
 May Dobbs|Alpha Plano|7be2493f-4e2f-49ee-8bf6-0d56e6c5c151
@@ -292,7 +293,7 @@ Michelle Chan|Alpha San Francisco|dfc4647e-130c-459e-974a-c4bab55146e9
 Michelle LeBlanc|NextGen Academy|2234d1e1-d4be-4035-8996-7b46e9e2cb86
 Michelle Lingle|Alpha Tulsa|2c863cd4-a69d-4630-b940-ea7bcc741edd
 Milli Patel|HISD|9e180837-e0f1-49d8-a7fb-0a64b6a5bd08
-Morgan Routh|GT Anywhere|8aa47193-d8e1-4bf0-a90a-b67716ec59b5
+Morgan Routh|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Morgan Swain|Nova Academy Austin|068a8aa1-bf1b-49c0-977b-f2c30d082a2a
 Nat Eliason|Founders Hub|6259ab88-d582-4b27-95d4-2ab5e9bea4dd
 Natasha Lince|Waypoint Academy|26dd8be1-3f64-4eda-a267-2c772dee16b4
@@ -305,7 +306,7 @@ Nick Boyer|NextGen Academy|2234d1e1-d4be-4035-8996-7b46e9e2cb86
 Nick Huynh|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Noah Lightfoot|Waypoint Academy|26dd8be1-3f64-4eda-a267-2c772dee16b4
 Noah Rodriguez|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
-Norberto Troncoso|GT Anywhere|8aa47193-d8e1-4bf0-a90a-b67716ec59b5
+Norberto Troncoso|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Olivia Toman|Alpha Kirkland|f2ccb764-7270-4696-ada9-3d6840742d5b
 Paige Fults|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Paolo Lacanlale|Alpha The Woodlands|7a70633c-fc7f-4497-aeca-ddc4610cfc7f

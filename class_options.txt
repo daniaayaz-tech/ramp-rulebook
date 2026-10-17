@@ -1,4 +1,4 @@
-# QuickBooks Class options in Ramp (tracking category 6edcf078-60a4-4c7d-b35e-2efa7b58c9fe). Format: Class name|Class option UUID|active. Generated 2026-09-19 from GET /accounting/field-options.
+# QuickBooks Class options in Ramp (tracking category 6edcf078-60a4-4c7d-b35e-2efa7b58c9fe). Format: Class name|Class option UUID|active. Regenerated 2026-10-17 from GET /accounting/field-options (pulled 2026-10-15). Playbook classes with NO Ramp option yet: Alpha Winter Park (Orlando), Marketing, Alpha Redmond (= Kirkland), Alpha Sausalito, Alpha Marin County, Unbound - raise with Finance before coding to them.
 2hour Learning|cffdeb74-3ee7-4240-90bb-c77739b9a489|active
 2hr Learning Evangelism|d7f1e3db-997a-49cc-8d5c-86c0f5d0c4c2|active
 alpha|7c96e75f-76c5-4bba-9621-7f3a98adb7a7|active
@@ -52,12 +52,13 @@ Alpha Palm Beach|36dfde43-de04-4571-88c7-cb978ef6a1f8|active
 Alpha Palm Beach Gardens|34303cc7-3034-4262-aead-2a439bb305de|active
 Alpha Palo Alto|2036a696-5ae7-4674-a370-27391c24b354|active
 Alpha Park City|aebc43ed-afbc-422c-b757-3327278833bc|active
-Alpha Park City (Prospector)|250b9f7c-362e-4504-852a-1fb453ac6668|active
+Alpha Park City (Kearns)|250b9f7c-362e-4504-852a-1fb453ac6668|active
 Alpha Plano|7be2493f-4e2f-49ee-8bf6-0d56e6c5c151|active
 Alpha Port Chester|ca4a7c8b-13bf-41e7-9d92-030d889f4699|active
 Alpha Raleigh|9a7fcfda-286e-46ee-abb4-c6bbac8222a9|active
 Alpha San Francisco|dfc4647e-130c-459e-974a-c4bab55146e9|active
 Alpha San Juan|2ca2c4f3-4e3f-4a87-9429-88e3f64933b3|active
+Alpha San Pedro|c5feb9fd-dc45-4318-b7a8-21157f2fe3f5|active
 Alpha Santa Barbara|f47817df-86d3-4f9c-916b-68d915a90277|active
 Alpha Santa Clara|3322546c-b699-41db-83ab-b6dec6bfa9f7|active
 Alpha Santa Monica|0d0f52d6-5e9c-4cda-8592-b9dbc319319b|active
@@ -80,6 +81,7 @@ Brownsville Preschool|838bccf1-596b-4c96-ae06-e091fa59c022|inactive
 Cancelled sites|f047b8d2-15e9-4f7a-b8ef-99b3f63ff397|active
 Carrolton Sports Academy|b04b9974-10a7-4b2d-8f2b-7a53b859b505|active
 Central|d7906bd7-62b7-4de9-801d-6c2150154d1f|active
+Core Education|1f83f994-0d76-466a-830b-fe10efc6eba2|active
 Dallas|452f71cf-452e-4cc8-9af2-1cf94593533c|inactive
 Founders Hub|6259ab88-d582-4b27-95d4-2ab5e9bea4dd|active
 GauntletAI|6ce3ebe7-3c1f-4560-8b11-5761961ac416|active
@@ -88,6 +90,7 @@ GT School Georgetown|d895eb1b-f1b6-4d6b-84f1-4111df1d48ba|active
 GT Summer Camp|dc7d2dfa-74b7-49aa-ab13-d44bac826960|active
 HISD|9e180837-e0f1-49d8-a7fb-0a64b6a5bd08|active
 Irvington High School|7212a2f0-60f2-434c-8f64-25d183430664|active
+Kaxxa Holdings, Inc.|17177385-edf6-4ff7-9a73-820c403c0619|active
 LPC|10280fef-dcde-4d4b-9ec4-25c7d7b6cae1|inactive
 LZR|7fe565b2-6760-4a90-b302-b5b06a03a5d1|inactive
 Montessorium|92c1a2ac-a587-4805-bed4-dc7b5989f4a8|active
@@ -96,6 +99,7 @@ Nova Academy Austin|068a8aa1-bf1b-49c0-977b-f2c30d082a2a|active
 Nova Academy Bastrop|42f071aa-e039-4b51-9d51-3d65ffe4b482|active
 Novatio School AZ|f56cc953-e1c9-40e4-b9fe-2e45bc3c4f7f|active
 San Antonio|32214f4a-4460-433c-a97e-608964ab2ad3|inactive
+SEZP|ce2c0931-8b26-4ede-81a4-9ec6d655bda0|active
 Silicon Valley|15217eaa-1fae-4c73-87ed-a09b6dec06fb|active
 Strata Software|b83cb849-60a1-4e78-9a17-1327120f6d09|active
 Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb|active
