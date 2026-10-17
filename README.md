@@ -133,6 +133,9 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
   class wipes it (2026-09-29: 44 splits synced with no class). Department is not splittable (422). Ramp refuses the PATCH with 403
   "Cannot manage splits" once the row is marked ready and there is NO API to un-mark (Ramp UI only). Check `line_items > 1` BEFORE any
   bulk mark-ready; a split whose lines do not add up cannot be marked ready (ACCOUNTING_7008); `ramp_split` drops line selections.
+- **Ramp re-runs its AUTOMATIC coding after an edit** (seen 2026-10-17: a Class-only write reset Department on 4 rows and Category +
+  Department on 2 rows of 250, source AUTOMATIC). After ANY write, re-read Category, Department, Class and Vendor on the row and
+  restore anything Ramp changed — verifying only the field you wrote is not enough.
 - **Rules the reviewers judged too broad** (bare london, material, staff, doordash, open, parent, merch, roar, buildout and the
   2026-09-28 mismatch patterns) defer to the precedent chain.
 - **New keywords (Dania 2026-09-30)**: every pass mines the memos no rule reached into candidate rules backed by synced precedent;
