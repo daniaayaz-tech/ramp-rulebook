@@ -33,10 +33,14 @@ The difference list that drove this rewrite is `Projects\RAMP\Playbook_vs_Rulebo
    summit / conference, workshop travel, interview / candidate / hiring / relocation, admissions costs, mandated-reporter /
    CPR / compliance training. Exceptions that stay with the school: local staff-day costs in the guide's own city, shadow-day or
    roadshow support travel, cross-campus coverage / launch help (needs evidence — without it the trip goes to Central).
-5. **People not attached to a school** (real-estate roamers, central staff) → Central per the playbook. *Open decision:*
-   `cardholder_class.txt` still maps central teamrooms (Central, EDU.COO/CFO/…) to `Alpha School LLC`, and QuickBooks since
-   July shows Finance using both classes (card lines: Administration 1,560 on Alpha School LLC vs 1,047 on Central; Tangible
-   Assets 1,809 on Alpha School LLC vs 0 on Central). Kept as is until Dania picks one; the memo rules above produce `Central`.
+5. **People not attached to a school** (real-estate roamers, central staff) → `Central`. Decided by Dania 2026-10-23:
+   `cardholder_class.txt` maps every central-team cardholder (Teamroom Central, EDU.COO/CFO, finance, real estate) to Central;
+   the six Ops-team members keep `Alpha School LLC` as their fallback because QuickBooks carries all build-out capex there
+   (card lines since July: Tangible Assets 1,809 on Alpha School LLC, 0 on Central).
+   **Bare destination rule (Dania 2026-10-23):** a memo that names only a city with a hotel, flight or ride and no purpose
+   ("Hotel stay in Dorado 7–20 June", "Flight to Chicago") is a staff trip without coverage evidence → `Central` (rule 4), not the
+   named campus. The named campus wins only when the memo states a purpose for it: visit, support, launch, coverage, workshop,
+   training at that campus for its students, supplies / lunch / transport for that campus.
 6. **Fallback → the cardholder's Crossover teamroom school = `cardholder_class.txt`.** Ramp department "Alpha Zero" is a
    placeholder (use the Ramp location); "Expansion schools" mixes Ops with new-school guides (Ops → rule 2, guides → the school
    they were hired for; unknown → Needs review).
@@ -47,6 +51,9 @@ The difference list that drove this rewrite is `Projects\RAMP\Playbook_vs_Rulebo
 team only (campus-run events, merch and set-up stay with the school; there is no "Marketing" class option in Ramp today);
 Armonk ≠ Port Chester; Sausalito ≠ Marin County; Redmond = Kirkland; Orlando = Winter Park (**no `Alpha Winter Park` option in
 Ramp — `Alpha Orlando` is used until Finance adds it**). A programme with no class → Needs review, raise it (as for SEZP).
+Added by Dania 2026-10-23: **TSA Carrollton = `Carrolton Sports Academy`** (Texas Sports Academy's Carrollton site, own QuickBooks
+file; never `Alpha Carrolton`, which is a different school). **"Alpha Anywhere" the online programme is NOT `Alpha Anywhere Center`**
+(the NYC school); it has no class yet → leave the current class, list it under Needs review "class to be created" until Finance adds one.
 
 **Never post to** `GT School Georgetown`, `GT Anywhere`, `GT Summer Camp`, `Unbound`, `Alpha World Ventures` — their costs sit
 centrally on purpose. `cardholder_class.txt` maps those cardholders to `Central` (13 GT cardholders changed 2026-10-17).
@@ -148,10 +155,11 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
 
 ## 5. Open decisions for Dania (2026-10-17)
 
-1. Central staff and Ops fallback class: `Central` (playbook) or `Alpha School LLC` (file + most QuickBooks postings)?
+1. ~~Central staff and Ops fallback class~~ — decided 2026-10-23: central staff → `Central`, Ops team → `Alpha School LLC` (section 1 step 5).
 2. GT cardholders → `Central` is applied (2,338 synced rows went to GT School Georgetown in 2026) — confirm.
-3. The 250 Teamroom class overrides written on 2026-10-16: 76 memos name a campus, 24 named the class Ramp had — revert those?
-4. Classes missing in Ramp: Alpha Winter Park, Marketing, Alpha Redmond, Alpha Sausalito, Alpha Marin County, Unbound.
+3. ~~The 250 Teamroom class overrides of 2026-10-16~~ — reverted 2026-10-17 on Dania's instruction (all 250 restored and verified).
+4. Classes missing in Ramp: Alpha Winter Park, Marketing, Alpha Redmond, Alpha Sausalito, Alpha Marin County, Unbound, and a class
+   for the "Alpha Anywhere" online programme (decision 2, 2026-10-23).
 5. Build-out buyers beyond the six Ops names (Aaron Crute, Andrew Jordan, Andrea Ewalefo, Alice Lee, Creighton North, Samuel Anderson,
    Taraya Voelker, Tara Stephenson, Kevin Kongslie, Greg Foote, Althea Kearney): their capitalised travel / meals now code to Travel.
    Add any of them to the Ops list if Finance treats them as Ops.
@@ -190,8 +198,8 @@ Central. Cardholders in neither fall back to Ramp location. Regenerate whenever 
 (regenerated 2026-10-17; 108 options, 100 active).
 
 ### Teamroom → QuickBooks Class translation (non-literal names)
-Austin Spyglass → Austin K-8 · Austin CO2 / Austin High School → Alpha High School · Central, EDU.COO/CFO/… → Alpha School LLC (see
-open decision 1) · New York → Alpha Anywhere Center · Oklahoma City → Alpha Oklahoma City (Reno) · Woodlands → Alpha The Woodlands ·
+Austin Spyglass → Austin K-8 · Austin CO2 / Austin High School → Alpha High School · Central, EDU.COO/CFO/finance/real estate →
+Central (Ops team only: Alpha School LLC; Dania 2026-10-23) · New York → Alpha Anywhere Center · Oklahoma City → Alpha Oklahoma City (Reno) · Woodlands → Alpha The Woodlands ·
 Founders → Founders Hub · TSA.Lakeway → Texas Sports Academy · GT.Georgetown → Central (never GT School Georgetown) · PAM.HISD → HISD ·
 Phoenix → Alpha Scottsdale · Brownsville → Brownsville K-8 · Redmond → Alpha Kirkland · Orlando → Alpha Orlando (Winter Park pending).
 Otherwise `EDU.School.Alpha.<Location>.<Level>.<Mode>` → `Alpha <Location>`.

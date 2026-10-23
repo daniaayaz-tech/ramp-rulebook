@@ -2,38 +2,39 @@
 # Source: Active contractors Google Sheet (Teamroom, T='Yes', EDU.*) read 2026-09-27; Teamroom -> Class translation table of 2026-09-18; entries kept from the 2026-09-19 file where the cardholder is not active in the sheet or the Teamroom has no Class translation. Re-generate with scratchpad kw3/regen_cardholder_class.mjs whenever the sheet changes.
 # Format: Cardholder|Class name|Class option UUID
 # 2026-10-17 (Finance posting playbook 14 Oct 2026, fixed mappings): never post to GT School Georgetown / GT Anywhere / GT Summer Camp / Unbound / Alpha World Ventures - their cardholders are mapped to class Central (13 cardholders changed). This file is now the FALLBACK (playbook A1 step 6); memo / receipt / trip campus, Ops-team build-out site, Summer Camps and staff-trip -> Central rules come first (see README).
-Aaron Crute|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+# 2026-10-23 (Dania decision 1): central-team cardholders (Teamroom Central / EDU.COO / CFO / finance / real estate) now fall back to class Central (playbook A1 rule 5; matches Finance postings since July). The six Ops-team members (Francia, Rockers, Houston, Ray, Liu, Forrest) keep Alpha School LLC as fallback because QuickBooks carries all build-out capex there. 36 cardholders changed.
+Aaron Crute|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Adam Shipley|Alpha Charlotte|43c0e4fa-9ac4-4e89-8cc6-a014f48f97f4
 Aidan Lopci|Alpha Malibu|343e6f51-0a56-41fd-9282-be7c1691ce56
 Alejandra Anderson|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Alexander Humphreys|Alpha Miami Beach|18f801bb-88e2-495d-86a0-4369b01addf6
 Alexandria Cruz|Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb
 Alexis Wilson|Alpha Beverly Hills|8a6a5457-c1e1-4b9a-b968-36a207684b40
-Alice Lee|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Alice Lee|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Allie Bradian|Alpha Boca Raton|84313117-71de-4f67-9eb9-fecf82a9ad7b
 Allison de Leo|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
 Allyson Dudich|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
 Allyson Schiller|Alpha Boston|168aef4e-540f-4c4c-8857-8f93de8e8927
-Alpha Billing|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Alpha Billing|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Althea Kearney|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Amara Cohen|Alpha East Bay|a99136b6-b500-47b6-a645-ec234bc38892
 Amber Kern|Alpha Dorado|0524cd6d-8bf0-4490-bdb7-ea85d2481d61
 Amir Lewis|Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb
 Amy Fortier|Alpha Denver|7cb08602-694d-4501-9635-3ccdec79094c
 Amy Ubungen|Alpha Kirkland|f2ccb764-7270-4696-ada9-3d6840742d5b
-Andrea Ewalefo|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Andrea Ewalefo|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Andrew Casebier|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
-Andrew Jordan|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Andrew Jordan|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Andy Gibson|Alpha Fort Worth|c5b3c4fe-729f-40a3-8d49-5df3202c0350
 Angelica Sanchez|Alpha Dorado|0524cd6d-8bf0-4490-bdb7-ea85d2481d61
-Anna Davlantes|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Anna Davlantes|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Anna Slaby|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Anna Smiley|Montessorium|92c1a2ac-a587-4805-bed4-dc7b5989f4a8
 April Owens|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
 Ariadna Guerrero|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
 Asa Siegel|Alpha Greenwich|d126d2f8-c75a-4f3f-9ee6-cb1704515fd0
 Ashley Storms|Alpha Kirkland|f2ccb764-7270-4696-ada9-3d6840742d5b
-Audri Wolfaardt|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Audri Wolfaardt|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Austin Carlson|Alpha Boca Raton|84313117-71de-4f67-9eb9-fecf82a9ad7b
 Austin Ray|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Austin Sacks|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
@@ -69,7 +70,7 @@ Carson Lehmann|Alpha San Francisco|dfc4647e-130c-459e-974a-c4bab55146e9
 Cassie Blessing|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Cat Streicher|Alpha Santa Barbara|f47817df-86d3-4f9c-916b-68d915a90277
 Catherine Pond|Alpha Chantilly|0a3b86eb-0940-4c79-96c8-34d8c4ba5851
-Cece Hill|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Cece Hill|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Celine Bernhardt-Lanier|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Charity Thompson|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Charlotte Rosenblum|Alpha Summer Camps|3d94d687-6fed-42dd-8a22-d4ed7240e5d2
@@ -94,18 +95,18 @@ Cole Dougherty|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Courtney Boyd|Alpha High School|2f78e55a-f69d-46ba-a17b-418a0dbfe828
 Courtney Crenshaw|Alpha Palm Beach|36dfde43-de04-4571-88c7-cb978ef6a1f8
 Courtney Fenner|Alpha Chantilly|0a3b86eb-0940-4c79-96c8-34d8c4ba5851
-Creighton North|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Creighton North|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Cristy Cunningham|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
 Crystal Cybulski|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
-Crystle Dorsey|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Crystle Dorsey|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Cyndie Jensen|Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb
 Dakota Anderson|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Dania Duran|Alpha Scottsdale|3f07195d-5c50-4f30-824a-9d15ebb95222
 Daniel Reding|Alpha South Bay|4d365b02-031b-4394-88e3-c3f850ae4ea2
 Daniela Orozco|Alpha Miami Beach|18f801bb-88e2-495d-86a0-4369b01addf6
 Darby Knox|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
-David Beaton|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
-David Cooney|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+David Beaton|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
+David Cooney|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 David Jackson|Alpha Kirkland|f2ccb764-7270-4696-ada9-3d6840742d5b
 Denzel Walschots|Alpha Kirkland|f2ccb764-7270-4696-ada9-3d6840742d5b
 Derek Bergmann|Alpha Santa Monica|0d0f52d6-5e9c-4cda-8592-b9dbc319319b
@@ -125,7 +126,7 @@ Emily Findley|Alpha High School|2f78e55a-f69d-46ba-a17b-418a0dbfe828
 Emily Neal|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Emma Simon|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 England Reddy|Alpha San Francisco|dfc4647e-130c-459e-974a-c4bab55146e9
-Eric Salgado|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Eric Salgado|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Erica Kinney|Alpha Raleigh|9a7fcfda-286e-46ee-abb4-c6bbac8222a9
 Erin Colucci|Alpha Palm Beach|36dfde43-de04-4571-88c7-cb978ef6a1f8
 Esther Kim|Alpha Kirkland|f2ccb764-7270-4696-ada9-3d6840742d5b
@@ -137,16 +138,16 @@ Fauvé Liggans-Hubbard|Alpha Santa Monica|0d0f52d6-5e9c-4cda-8592-b9dbc319319b
 Gabbi Piazza|Brownsville K-8|95ece7e5-2047-45d7-822f-354232179e23
 Gabriel Golombek|Alpha La Jolla|ad1bbd9b-8487-4e3c-b109-9b13f485544a
 Gabriella Gibbons|Alpha Boca Raton|84313117-71de-4f67-9eb9-fecf82a9ad7b
-Gaby Guajardo|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Gaby Guajardo|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Garrett Rigby|Alpha High School|2f78e55a-f69d-46ba-a17b-418a0dbfe828
 Gaston Griffin|2hour Learning|cffdeb74-3ee7-4240-90bb-c77739b9a489
 Genessa Palmquist|Alpha Oklahoma City (Reno)|73bb5202-66c2-45f7-a22e-f6a680fffd0c
 Geoffrey Gary|Alpha East Bay|a99136b6-b500-47b6-a645-ec234bc38892
 Giana Hesterberg|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
-Ginhee Rancourt|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Ginhee Rancourt|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Graham Spraker|Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb
 Grant Cain|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
-Grant Young|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Grant Young|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Greg Annan|Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb
 Greg Foote|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Greta Murphy|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
@@ -159,7 +160,7 @@ Hardu Virks-Lee|Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb
 Heeju Park|Alpha Palo Alto|2036a696-5ae7-4674-a370-27391c24b354
 Heidi Faseler|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Henry Carey|Alpha Nashville|b9ec4efc-4b84-422a-9734-6dfe1c838fb4
-Holly Haygood|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Holly Haygood|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Ian Huggins|Alpha High School|2f78e55a-f69d-46ba-a17b-418a0dbfe828
 Isabella Cofresi|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
 Israel Adesina|Alpha High School|2f78e55a-f69d-46ba-a17b-418a0dbfe828
@@ -178,7 +179,7 @@ Jason Harris|Alpha South Bay|4d365b02-031b-4394-88e3-c3f850ae4ea2
 Jason Kantor|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Jason Tan|Alpha San Francisco|dfc4647e-130c-459e-974a-c4bab55146e9
 Jasper Hsu|Alpha Orange County|523c9f68-3f1f-4cbd-b3e7-527603990d1c
-Jawaan Delaney|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Jawaan Delaney|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Jayden Jackson|Alpha Highland Park|9e72bc1d-f1df-4d09-980f-3ab492474fb8
 Jebin Justin|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Jen Sun|Alpha Palm Beach|36dfde43-de04-4571-88c7-cb978ef6a1f8
@@ -190,7 +191,7 @@ Jennifer Greenham|Alpha Raleigh|9a7fcfda-286e-46ee-abb4-c6bbac8222a9
 Jennifer Lopes|Alpha Scottsdale|3f07195d-5c50-4f30-824a-9d15ebb95222
 Jennifer Maddox|Alpha Atlanta|115e7b22-9a7b-450e-8710-f7da386e1b5e
 Jennifer Rodriguez|Alpha Oklahoma City (Reno)|73bb5202-66c2-45f7-a22e-f6a680fffd0c
-Jeremy Richards|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Jeremy Richards|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Jesse Moskowitz|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Jessica Criss|Nova Academy Bastrop|42f071aa-e039-4b51-9d51-3d65ffe4b482
 Jessica Gile|Alpha Scottsdale|3f07195d-5c50-4f30-824a-9d15ebb95222
@@ -208,7 +209,7 @@ Joshua Goldstein|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Joshua Lezmi|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
 Joshua Rockers|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
 Julia Hier|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
-Juliana Abou Salhab|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Juliana Abou Salhab|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Julianne Braime|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Julianne Hodges|Alpha Park City|aebc43ed-afbc-422c-b757-3327278833bc
 Julie Parrish|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
@@ -217,8 +218,8 @@ Justin Milton|Alpha Denver|7cb08602-694d-4501-9635-3ccdec79094c
 Justin Peterson|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
 Kai Isaia|Alpha La Jolla|ad1bbd9b-8487-4e3c-b109-9b13f485544a
 Kalla Bollish|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
-Karina Ballesteros|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
-Katarina Smith|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Karina Ballesteros|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
+Katarina Smith|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Katherine Phelps|Alpha Southlake|2d8d98c1-1553-4282-af12-a183b4d5f246
 Kathleen Jeremiassen|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Kathrine Boye|Alpha Denver|7cb08602-694d-4501-9635-3ccdec79094c
@@ -240,7 +241,7 @@ Kimberley Kimberley|Alpha Fort Worth|c5b3c4fe-729f-40a3-8d49-5df3202c0350
 Kimberly McPike|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Kirsten Berg|Alpha Palm Beach|36dfde43-de04-4571-88c7-cb978ef6a1f8
 Kirsten King|Alpha Miami Beach|18f801bb-88e2-495d-86a0-4369b01addf6
-Kristen Beckley|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Kristen Beckley|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Kristina Chinea Stratton|Alpha Dorado|0524cd6d-8bf0-4490-bdb7-ea85d2481d61
 Kristopher Ponder-Bisping|Alpha Kirkland|f2ccb764-7270-4696-ada9-3d6840742d5b
 Krys Davis|2hour Learning|cffdeb74-3ee7-4240-90bb-c77739b9a489
@@ -255,22 +256,22 @@ Leah Panther|Alpha Boston|168aef4e-540f-4c4c-8857-8f93de8e8927
 Lia Kim|Alpha Palo Alto|2036a696-5ae7-4674-a370-27391c24b354
 Lindsay Vanlandingham|Alpha Fort Worth|c5b3c4fe-729f-40a3-8d49-5df3202c0350
 Lindsey Ervi|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
-Linnie Gaiser|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Linnie Gaiser|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 LISA C. WILLIS|Texas Sports Academy|78fc8088-4e77-4bc7-915b-c3313fad4efb
 Logan Higuera|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
 Lori Wartgow|Alpha Boca Raton|84313117-71de-4f67-9eb9-fecf82a9ad7b
 Lorine Barnabe|Alpha Orange County|523c9f68-3f1f-4cbd-b3e7-527603990d1c
-Ludel Mier|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Ludel Mier|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Luke Phillips|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Mackenzie Post|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
-MacKenzie Price|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+MacKenzie Price|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Mackenzie Shiau|Nova Academy Austin|068a8aa1-bf1b-49c0-977b-f2c30d082a2a
 Madeline Fitzgerald|Alpha Denver|7cb08602-694d-4501-9635-3ccdec79094c
 Madeline Trimble|Alpha Orange County|523c9f68-3f1f-4cbd-b3e7-527603990d1c
 Madelyn Bossarte|Alpha Park City|aebc43ed-afbc-422c-b757-3327278833bc
 Magen Berg|Alpha Chicago|c3ccd1dc-9cc1-429f-bd26-f7ef09abee28
 Malhar Mali|Alpha Malibu|343e6f51-0a56-41fd-9282-be7c1691ce56
-Mallory Carranza|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Mallory Carranza|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Malu Delgado|Nova Academy Austin|068a8aa1-bf1b-49c0-977b-f2c30d082a2a
 Maria Mejia|Alpha San Francisco|dfc4647e-130c-459e-974a-c4bab55146e9
 Maria Zello|Alpha La Jolla|ad1bbd9b-8487-4e3c-b109-9b13f485544a
@@ -303,12 +304,12 @@ Neysa King|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
 Nicah Lowry|Alpha The Woodlands|7a70633c-fc7f-4497-aeca-ddc4610cfc7f
 Nicholas Francis|Alpha Park City|aebc43ed-afbc-422c-b757-3327278833bc
 Nick Boyer|NextGen Academy|2234d1e1-d4be-4035-8996-7b46e9e2cb86
-Nick Huynh|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Nick Huynh|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Noah Lightfoot|Waypoint Academy|26dd8be1-3f64-4eda-a267-2c772dee16b4
 Noah Rodriguez|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Norberto Troncoso|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Olivia Toman|Alpha Kirkland|f2ccb764-7270-4696-ada9-3d6840742d5b
-Paige Fults|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Paige Fults|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Paolo Lacanlale|Alpha The Woodlands|7a70633c-fc7f-4497-aeca-ddc4610cfc7f
 Parthvi  Harde|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Patricia Kelley|Brownsville K-8|95ece7e5-2047-45d7-822f-354232179e23
@@ -335,10 +336,10 @@ Ryan Burke|Alpha Tulsa|2c863cd4-a69d-4630-b940-ea7bcc741edd
 Sam Johnson|Alpha Scottsdale|3f07195d-5c50-4f30-824a-9d15ebb95222
 Sam McDonald|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Samantha DePalo|Alpha Southlake|2d8d98c1-1553-4282-af12-a183b4d5f246
-Samantha Gaboian|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Samantha Gaboian|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Samantha Hilton|Brownsville K-8|95ece7e5-2047-45d7-822f-354232179e23
 Samantha Schmidt|Alpha Nashville|b9ec4efc-4b84-422a-9734-6dfe1c838fb4
-Samuel Anderson|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Samuel Anderson|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Santi Orozco|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
 Sanura Njaka|Alpha Kirkland|f2ccb764-7270-4696-ada9-3d6840742d5b
 Sara Guerra|Alpha Boston|168aef4e-540f-4c4c-8857-8f93de8e8927
@@ -348,7 +349,7 @@ Sarah Moore|Alpha Santa Monica|0d0f52d6-5e9c-4cda-8592-b9dbc319319b
 Sarah Rettig|Alpha East Bay|a99136b6-b500-47b6-a645-ec234bc38892
 Sarai Williams|Alpha Denver|7cb08602-694d-4501-9635-3ccdec79094c
 Savannah Diederich|Alpha Palo Alto|2036a696-5ae7-4674-a370-27391c24b354
-Scott Cody|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Scott Cody|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Scott Dangerfield|Alpha Palm Beach|36dfde43-de04-4571-88c7-cb978ef6a1f8
 Sean McKenna|Alpha Palm Beach|36dfde43-de04-4571-88c7-cb978ef6a1f8
 Semaja Brim|Alpha Oklahoma City (Reno)|73bb5202-66c2-45f7-a22e-f6a680fffd0c
@@ -359,7 +360,7 @@ Shelby Pollard|Alpha High School|2f78e55a-f69d-46ba-a17b-418a0dbfe828
 Sheri Turner|Alpha Boca Raton|84313117-71de-4f67-9eb9-fecf82a9ad7b
 Sonja Bumann|Alpha Orange County|523c9f68-3f1f-4cbd-b3e7-527603990d1c
 Spencer Opatrny|Alpha Chicago|c3ccd1dc-9cc1-429f-bd26-f7ef09abee28
-Stefanie Baduria|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Stefanie Baduria|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Stephanie Dean|Alpha Raleigh|9a7fcfda-286e-46ee-abb4-c6bbac8222a9
 Stephanie Gasch|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Steve Dixen|Alpha The Woodlands|7a70633c-fc7f-4497-aeca-ddc4610cfc7f
@@ -369,8 +370,8 @@ Talmage Morgan|Alpha Park City|aebc43ed-afbc-422c-b757-3327278833bc
 Tamara Friend|Alpha Miami|6e16fd77-37fc-49a6-bdcf-6963fe3f919c
 Tanya Parker|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
 Tara Jordan|Alpha Malibu|343e6f51-0a56-41fd-9282-be7c1691ce56
-Tara Stephenson|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
-Taraya  Voelker|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Tara Stephenson|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
+Taraya  Voelker|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Tarranum Malhi|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Tatiana Barbic|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Taylor Sweeney|Austin K-8|61ed813a-be31-4413-b8e0-159e8f81facf
@@ -398,7 +399,7 @@ Whitney Snow|Alpha Santa Barbara|f47817df-86d3-4f9c-916b-68d915a90277
 Willem Robbins|Alpha Malibu|343e6f51-0a56-41fd-9282-be7c1691ce56
 William Galbreath|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 William Stanton|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
-Yariseli Felix|Alpha School LLC|9569ea32-f80b-41c3-8af4-293e07829b36
+Yariseli Felix|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Zac DeJovine|Alpha Scottsdale|3f07195d-5c50-4f30-824a-9d15ebb95222
 Zachary Smith|Founders Hub|6259ab88-d582-4b27-95d4-2ab5e9bea4dd
 Zara Raheem|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
