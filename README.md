@@ -135,6 +135,11 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
   ADM-Staff Amenities, Office Supplies → ADM-Office supplies, HR Expenses → ADM-HR expenses, Marketing → MKT-Other Marketing cost,
   Tangible Assets → FAC-Buildout, Repairs and Maintenance → FAC-Other facilities cost, Utilities → FAC-Internet, **Rent → FAC-Rent**,
   Janitorial → FAC-Janitorial; Summer Camp only with the Alpha Summer Camps class / camp season.
+- **Close exceptions to the gate (one-off, date-bound, never a standing rule):** September close 2026-09-30/10-04, and
+  2026-10-29 for rows dated on or before 2026-10-20 (Dania: "in waiting for cardholder code them as per playbook and make them
+  ready to sync") — rows without memo or receipt were coded by the rulebook and staged; holds (duplicates, refunds without an
+  original, ≥ $1,000, disputed, personal-looking, multi-campus, splits, incomplete coding) still applied. Rows dated after the
+  cut-off stay under the normal gate.
 - **Staging gate (Dania 2026-09-30, tightened 2026-10-04)**: a row is coded only when Category, Department AND Class are all set,
   and may be marked Ready to Sync ONLY if it ALSO has a non-placeholder memo AND a receipt actually attached (`receipt_uuids`
   non-empty, `missing_receipt` false) and is not held by section 3. Re-read every object from Ramp before marking ready (splits:
