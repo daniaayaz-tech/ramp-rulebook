@@ -98,6 +98,12 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
 - **Placeholder memos / receipts**: "Finance Updated memo", "Finance - NA", "Finance updated memo" and the "Receipt – Finance"
   placeholder image are a sync-unblock fill-in, not evidence → treat as no memo and no receipt (coded by the precedent chain,
   memo never written, never staged — see the gate below).
+- **Repaid personal charges are staged (Dania 2026-10-28).** Ramp repayments (Expenses > Card transactions > ⋮ > Repayments) copy the
+  original charge's coding and can only sync to QuickBooks after the original has synced. So once a charge's repayment status is
+  **REPAID**, the original is coded by the normal rules (nothing special) and marked Ready to Sync **even without a memo or receipt** —
+  the gate below does not apply to it. Note "repaid personal charge, repayment <id>" in the run report. Charges whose repayment is only
+  requested / awaiting payment stay under the normal gate. Repayments repaid before Ramp's August-2026 autosync cutoff never sync on
+  their own: Finance syncs them by hand from the Repayments page (Sync Repayment / Mark as synced).
 - **Refunds / credits follow the original charge**: find the original by merchant, amount and date (synced or unsynced); copy its
   Category, Department and Class. No original found → Needs review. (Replaces "refunds are coded by their memo".)
 - **Dates**: every date rule (camp weeks, staff days, opening windows, precedent windows) uses the **Ramp transaction date**,
