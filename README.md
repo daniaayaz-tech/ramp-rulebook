@@ -158,7 +158,7 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
     numbers (`memoReceiptRule`: relaxFromDay 25, cutoffDay 20) and an optional fixed override; moved only on Dania's instruction.
   - **Repayment originals ignore the 20th** (Dania 2026-10-30): a charge with any repayment status is staged on any date once it has
     memo + receipt; without them it waits until the 25th and is then staged whatever its posting date. Repayments are read over REST
-    (`GET /repayments`, scope `repayments:read` — see section 6 for the scope gap).
+    (`GET /repayments`, scope `repayments:read`, granted 2026-10-30 — see section 6).
   - **Never staged**: disputed rows (Dania 2026-10-30), personal-looking charges (section 3), and rows whose coding cannot be
     completed (no class, class not active, category not in Ramp, split with a missing line field, memo naming several campuses,
     not CLEARED) — these stay in Needs review and are listed.
@@ -220,10 +220,11 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
   changes this repo, config.json or any Ramp setting, codes reimbursements (Dania 2026-10-29: not in scope).
 - **Held rows in the report**: no memo / no receipt after the cutoff, disputed, personal-looking, several campuses, incomplete
   coding; listed with the ≥ $1,000 rows, possible duplicates, kept judge rows and any memo no rule reached (for Ladder-1).
-- **Known gaps**: (a) the REST API client was not granted `repayments:read` (checked 2026-10-30: DEVELOPER_7100) — until Dania adds
-  that scope to the API client in Ramp's developer settings the run cannot see repayment status, logs "repayments unavailable" and
-  Finance keeps staging repayment originals from the Repayments page (memory `ramp-repayments`); (b) cardholders missing from
-  cardholder_class.txt keep their Ramp class (listed as "cardholder not in file").
+- **Repayments over REST**: `GET /repayments` needs scope `repayments:read`; Dania added it to the API client on 2026-10-30 and the
+  pipeline now names its scopes explicitly in the token request (Ramp grants only a default set when none are named). 752 originals
+  with a repayment status were visible that night; the 5 in the queue (AWAITING_PAYMENT, no receipt) were staged under the
+  month-end rule. If the call ever fails again the run logs "repayments unavailable" and applies the ordinary rule.
+- **Known gap**: cardholders missing from cardholder_class.txt keep their Ramp class (listed as "cardholder not in file").
 - **Changing it**: rules live in this repo (the run reads the files fresh each day); the window / cutoff days and scan window live in
   Ramp-Daily/config.json; the schedule and prompt in the scheduled task. Dania approves every such change first.
 
