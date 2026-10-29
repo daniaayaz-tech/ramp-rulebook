@@ -236,6 +236,57 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
 - **Changing it**: rules live in this repo (the run reads the files fresh each day); the window / cutoff days and scan window live in
   Ramp-Daily/config.json; the schedule and prompt in the scheduled task. Dania approves every such change first.
 
+## 7. Month-end procedure (standing from November 2026 — nothing to set up by hand)
+
+The October 2026 close needed late-night manual passes because the gate, the repayment rule, reimbursements and the task's
+permissions were all changed on the last days. All of that is now standing, so a normal month looks like this.
+
+**What runs by itself** — the desktop task `ramp-qb-coding-daily` at 12:15 PM Pakistan, every day, while Dania's laptop is on and the
+Claude desktop app is open (a missed run fires at the next launch). Each run pulls the whole Needs-review queue (cards + approved
+reimbursements), codes it, writes the coding, verifies, stages by the gate in section 4 and leaves the CSV in Projects/RAMP/reviews.
+
+| Day of month | Rows WITH memo + receipt | Rows WITHOUT memo or receipt | Repayment originals without memo/receipt |
+| --- | --- | --- | --- |
+| 1st – 24th | staged daily once coded | staged only if dated on/before the 20th of the **previous** month (they were already eligible) | wait |
+| 25th – last day (month-end window) | staged daily once coded | staged if dated on/before the 20th of **this** month; rows dated 21st–month-end keep waiting for the cardholder | staged whatever the date (Dania confirmed 2026-10-30: even if charged yesterday) |
+
+Never staged, listed in the report instead: disputed rows; personal-looking card charges; pending / rejected reimbursements; rows whose
+coding cannot be completed (no rule, no class, memo naming several campuses, split with a missing line field). ≥ $1,000 rows and possible
+duplicates ARE staged and listed for a hand-check.
+
+Example for November 2026: on 1–24 Nov the cutoff is 20 Oct, so the ~1,100 October rows still waiting on memo/receipt stay in Needs review;
+on 25 Nov the cutoff moves to 20 Nov and every one of them is staged by that day's run, together with anything dated 1–20 Nov. Rows dated
+21–30 Nov without memo/receipt wait until 25 Dec. No instruction from Dania is needed for any of this.
+
+**Dania's part**
+1. Click **Sync all** in Ramp after the 12:15 run (daily, or at least on the 25th and the last day). The run never syncs.
+2. Read the run's message (it arrives in the Claude session that created the task) or the CSV: the staged ≥ $1,000 rows and possible
+   duplicates are the hand-check list; the held rows grouped by cardholder are the chase list for memos / receipts.
+3. Answer the few decision rows when they appear (no rule, no class, several campuses) — one at a time, recommended option first. Each
+   answer is recorded so it never comes back: a Ladder-1 line, a cardholder_class.txt line, or a per-transaction ruling in
+   Ramp-Daily/data/tx_overrides.json (class rulings that also clear the several-campuses hold).
+4. Nothing to do on the 25th — the window opens by itself. Nothing to do on the 1st — the cutoff moves back to last month's 20th by itself.
+
+**Leftovers that are expected, not problems**: Ramp sometimes flips a staged reimbursement back to not-ready; the next run re-stages it.
+Rows Ramp itself does not require a receipt for (small amounts) are still held by our gate until a receipt is attached — change only on
+Dania's say-so. Repayments repaid before Ramp's Aug-2026 autosync cutoff still need Finance's manual Sync Repayment (section 3).
+
+**If something goes wrong**
+- *No run today*: laptop was off or the app closed → it runs at the next app launch; or open the task in the app's Scheduled section and
+  click Run now; or by hand in Projects/Ramp-Daily: `node run.mjs plan --run daily_<date> --mode daily`, agents apply writes/*.json
+  (`workflow_apply.js` from an interactive session), `node run.mjs verify`, `stage --apply`, `report` (same `--run`).
+- *Run started but produced nothing (stalled on a permission prompt)*: the task lost its Auto mode. Open the run and approve, or delete +
+  re-create the task from a chat whose mode menu is set to Auto (the create result must say "saved in Auto mode"). Editing the prompt or
+  schedule with the update tool is safe — it keeps the mode (verified 2026-10-30).
+- *"These scopes are not allowed for this token"*: add the scope to the Ramp API client in Ramp's developer settings (Dania), then delete
+  Projects/ramp/.token-cache.json. The pipeline names its scopes in Ramp-Daily/lib/ramp.mjs (transactions, accounting, repayments,
+  reimbursements).
+- *Rules need a change*: this repo (Ladder-1, maps, cardholder_class.txt, rulings) is read fresh by every run — commit and the next run
+  uses it. Day numbers and switches live in Ramp-Daily/config.json (`memoReceiptRule` 25/20, `memoReceiptCutoff` one-off override,
+  `reimbursements`, `fromDate`). Dania approves every such change first.
+- *A one-off "stage everything now" instruction* (as on 2026-10-29): `--mode close` on `plan` stages every fully coded row regardless of
+  memo/receipt — only when Dania says so for that run; disputed rows are never staged even then.
+
 ## File formats
 
 ### memo_keyword_rules.txt
