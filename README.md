@@ -104,8 +104,9 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
 - **Charges under repayment are staged (Dania 2026-10-28, widened 2026-10-29).** Ramp repayments (Expenses > Card transactions >
   ⋮ > Repayments) copy the original charge's coding and can only sync to QuickBooks after the original has synced. So a charge with
   **any** repayment status (requested by reviewer, awaiting payment / in progress, or repaid) is coded as an ordinary expense by the
-  normal rules and marked Ready to Sync **regardless of memo, receipt or the period cutoff date** ("repayments are exclusive of cutoff
-  time and receipt and memo"). Such rows sit in Needs review rather than Waiting for cardholder, because requesting repayment exempts
+  normal rules and marked Ready to Sync **regardless of the period cutoff date** ("repayments are exclusive of cutoff time and receipt
+  and memo"; refined by Dania 2026-10-30: a repayment original WITHOUT memo or receipt waits until the 25th of the month so the
+  cardholder can add them, and from the 25th it is staged anyway, whatever its date; with memo + receipt it is staged at once). Such rows sit in Needs review rather than Waiting for cardholder, because requesting repayment exempts
   the cardholder from memo and receipt. The usual holds (>= $1,000, disputed, split, multi-campus) still apply. Note "personal charge
   under repayment <id>" in the run report. Repayments repaid before Ramp's August-2026 autosync cutoff never sync on their own:
   Finance syncs them by hand from the Repayments page (Sync Repayment / Mark as synced).
@@ -113,9 +114,11 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
   Category, Department and Class. No original found → Needs review. (Replaces "refunds are coded by their memo".)
 - **Dates**: every date rule (camp weeks, staff days, opening windows, precedent windows) uses the **Ramp transaction date**,
   never the QuickBooks accounting date (bumped to the 1st after a close).
-- **Possible duplicates** (same person, merchant, amount, day): code them, do **not** stage, list them — only a same-receipt double
-  claim is a true duplicate and a person has to look at the receipts. (Replaces "same-day duplicate clusters are staged".)
-- **Lines of $1,000 or more**: coded, not staged, listed for a hand-check (playbook B1 review threshold; Dania may relax this).
+- **Possible duplicates** (same person, merchant, amount, day): code them, stage them, and list them in the run report for a
+  receipt check (Dania 2026-10-30; until then they were held) — only a same-receipt double claim is a true duplicate and a person
+  has to look at the receipts.
+- **Lines of $1,000 or more**: coded, staged, and listed in the run report for a hand-check (playbook B1 review threshold; Dania
+  relaxed the staging block on 2026-10-30).
 - **Reason on every changed line**: the `rationale` of every write (and the run CSV) is one short phrase plus the source, e.g.
   "Ladder-1 row 1208 (flight + workshop) → Travel; staff trip → Central", "refund of Delta 2026-09-14 $412.30 → same coding".
   Ramp comments are not posted (they notify cardholders) unless Dania asks.
@@ -145,16 +148,24 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
   ADM-Staff Amenities, Office Supplies → ADM-Office supplies, HR Expenses → ADM-HR expenses, Marketing → MKT-Other Marketing cost,
   Tangible Assets → FAC-Buildout, Repairs and Maintenance → FAC-Other facilities cost, Utilities → FAC-Internet, **Rent → FAC-Rent**,
   Janitorial → FAC-Janitorial; Summer Camp only with the Alpha Summer Camps class / camp season.
-- **Close exceptions to the gate (one-off, date-bound, never a standing rule):** September close 2026-09-30/10-04, and
-  2026-10-29 for rows dated on or before 2026-10-20 (Dania: "in waiting for cardholder code them as per playbook and make them
-  ready to sync") — rows without memo or receipt were coded by the rulebook and staged; holds (duplicates, refunds without an
-  original, ≥ $1,000, disputed, personal-looking, multi-campus, splits, incomplete coding) still applied. Rows dated after the
-  cut-off stay under the normal gate.
-- **Staging gate (Dania 2026-09-30, tightened 2026-10-04)**: a row is coded only when Category, Department AND Class are all set,
-  and may be marked Ready to Sync ONLY if it ALSO has a non-placeholder memo AND a receipt actually attached (`receipt_uuids`
-  non-empty, `missing_receipt` false) and is not held by section 3. Re-read every object from Ramp before marking ready (splits:
-  Category and Class on each line item); hold disputed rows and splits. Applies to reimbursements too (rejected / pending never).
-  Reference implementation: kw3/gate_and_mark.mjs.
+- **Staging gate (Dania 2026-10-30; replaces the 2026-09-30 / 2026-10-04 gate):** a row is coded only when Category, Department
+  AND Class are all set. Once the coding is complete it is marked Ready to Sync, with these conditions on memo and receipt:
+  - **Month-end window = the 25th of a month to its last day.** Inside the window, rows with a Ramp transaction date **on or before the
+    20th of that month** are staged even without a memo or receipt ("at month end after the 25th stage even those which have no memo,
+    no receipt, but the posting date should be on or before the 20th"). Outside the window the cutoff is the 20th of the previous
+    month, so a row that became eligible never loses it. Rows dated after the cutoff need a non-placeholder memo AND a receipt actually
+    attached (`receipt_uuids` non-empty) — cardholders get until the 25th to add them. Ramp-Daily/config.json holds the two day
+    numbers (`memoReceiptRule`: relaxFromDay 25, cutoffDay 20) and an optional fixed override; moved only on Dania's instruction.
+  - **Repayment originals ignore the 20th** (Dania 2026-10-30): a charge with any repayment status is staged on any date once it has
+    memo + receipt; without them it waits until the 25th and is then staged whatever its posting date. Repayments are read over REST
+    (`GET /repayments`, scope `repayments:read` — see section 6 for the scope gap).
+  - **Never staged**: disputed rows (Dania 2026-10-30), personal-looking charges (section 3), and rows whose coding cannot be
+    completed (no class, class not active, category not in Ramp, split with a missing line field, memo naming several campuses,
+    not CLEARED) — these stay in Needs review and are listed.
+  - The former blocks — ≥ $1,000, possible duplicate, refund without an original — are staged and listed in the run report instead.
+  - Re-read every object from Ramp before marking ready. Card transactions only; reimbursements are not in the daily run.
+  - History: the 2026-10-04 gate required memo + receipt on every row; one-off close exceptions on 2026-09-30, 2026-10-04 and
+    2026-10-29 (rows dated ≤ 20 Oct) staged without them before this became the standing rule.
 - **Split transactions** (more than one line item): Ramp keeps Category AND Class on the line items; a header write sets only the
   Department. Write every line with REST `PATCH /transactions/{id}` `line_items[]` (amounts in cents, sum to the total; the array
   REPLACES the split) carrying `accounting_field_selections` for BOTH `QuickbooksCategory` and `QuickbooksClass` — omitting the
@@ -189,6 +200,32 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
    Taraya Voelker, Tara Stephenson, Kevin Kongslie, Greg Foote, Althea Kearney): their capitalised travel / meals now code to Travel.
    Add any of them to the Ops list if Finance treats them as Ops.
 6. Duplicates and $1,000+ lines are now coded but not staged — relax if too many rows pile up in Needs review.
+
+## 6. The daily run (desktop scheduled task `ramp-qb-coding-daily`, since 2026-10-29)
+
+- **When**: every day at 12:15 PM Pakistan (cron 12:05 + the app's ~10-minute dispatch delay), while Dania's Claude desktop app is
+  open; a missed run fires at the next launch. Saved in Auto mode (2026-10-30) so it needs no approvals; Dania can also start it
+  with "Run now" on the task's page. Code: Projects/Ramp-Daily (README.md there is the operating manual; prompt in
+  .claude/scheduled-tasks/ramp-qb-coding-daily/SKILL.md).
+- **What it does**: (1) `plan` pulls every never-synced Needs-review row (Ramp date from 1 Sep 2026) and the repayments list over
+  REST, refreshes the field options and the synced-history precedent snapshot, codes every row by this repo's precedence
+  (cardholder_rulings → Ladder-1 → precedent chain with the two map files → Ramp current; playbook overlay; class ladder with
+  cardholder_class.txt by UUID) and writes slices; (2) subagents write Category + Department + Class in one call per row through
+  the Ramp connector (`ramp_edit_transaction`; REST cannot write header coding) — memo-based class moves go to a reviewer agent
+  first (move vs keep, decision 4 and the traps in section 1); (3) `verify` re-reads every written row; (4) `stage` re-checks each
+  candidate live and marks Ready to Sync by the gate in section 4; (5) `report` writes
+  Projects/RAMP/reviews/Ramp_daily_run_<date>.csv (every row, its coding, basis, holds, repayment status and gate result) and a
+  short message.
+- **Never**: syncs to QuickBooks (Dania clicks Sync all), writes or passes a memo (placeholders stay blank), edits a synced row,
+  changes this repo, config.json or any Ramp setting, codes reimbursements (Dania 2026-10-29: not in scope).
+- **Held rows in the report**: no memo / no receipt after the cutoff, disputed, personal-looking, several campuses, incomplete
+  coding; listed with the ≥ $1,000 rows, possible duplicates, kept judge rows and any memo no rule reached (for Ladder-1).
+- **Known gaps**: (a) the REST API client was not granted `repayments:read` (checked 2026-10-30: DEVELOPER_7100) — until Dania adds
+  that scope to the API client in Ramp's developer settings the run cannot see repayment status, logs "repayments unavailable" and
+  Finance keeps staging repayment originals from the Repayments page (memory `ramp-repayments`); (b) cardholders missing from
+  cardholder_class.txt keep their Ramp class (listed as "cardholder not in file").
+- **Changing it**: rules live in this repo (the run reads the files fresh each day); the window / cutoff days and scan window live in
+  Ramp-Daily/config.json; the schedule and prompt in the scheduled task. Dania approves every such change first.
 
 ## File formats
 
