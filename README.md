@@ -8,8 +8,11 @@ The difference list that drove this rewrite is `Projects\RAMP\Playbook_vs_Rulebo
 
 ## Precedence
 
-- **Category + Department**: `memo_keyword_rules.txt` (Ladder-1) → `cardholder_merchant_map.txt` → `merchant_map.txt` → precedent
-  chain → Needs review. The playbook overlay (section 2) is applied on top of whatever those give: Ops-team capitalisation,
+- **Category + Department**: `cardholder_rulings.txt` (per-cardholder rulings, e.g. MacKenzie Price) → `memo_keyword_rules.txt` (Ladder-1) →
+  the precedent chain of section 4, which holds the two map files inside it (cardholder + merchant synced history → `cardholder_merchant_map.txt`
+  → same memo → merchant history → `merchant_map.txt` → cardholder usual → Ramp current) → Needs review. Clarified 2026-10-29: for a row
+  Ladder-1 does not code, the cardholder's own synced history with that merchant beats the map files (reviewers overturned map-based codings
+  on that ground twice; the old wording "maps before precedent" was the engine's shortcut, not the rule). The playbook overlay (section 2) is applied on top of whatever those give: Ops-team capitalisation,
   refunds follow the original, holds.
 - **Class**: the playbook ladder (section 1). `cardholder_class.txt` is the **fallback** (step 6), no longer the first rule.
   The 2026-09-29 rule "Teamroom first for every cardholder, even when the memo names another campus" is **withdrawn**.
@@ -130,6 +133,11 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
   rows, ≥40%) → Ramp's current coding. Only a row with none of these stays in Needs review (Dania 2026-09-29).
 - **Memo but no rule**: derive a Ladder-1 rule when the memo generalises (vendor, product, item + context) and code by it; a bare
   generic word (Food, Dinner, Lunch, Coffee, Meal, Snack, Test charge) or a person's name is coded by the precedent chain.
+- **Per-cardholder rulings (`cardholder_rulings.txt`, Dania 2026-10-29)**: **MacKenzie Price has no rulebook rules** - code her rows from her own
+  synced history (cardholder + merchant in the last ~100 days → cardholder + merchant 2026 → her usual coding), default
+  Administration:Marketing / MKT-Other Marketing cost (76% of her 552 synced 2026 rows, hotels, flights and dinners included - the
+  playbook travel table is not applied to her); class by the ladder, fallback Central. Ladder-1, the map files and the playbook
+  account table are skipped for a cardholder with a ruling.
 - **Rulebook tie** (two rules, same priority, different Category): break it with the precedent chain among the tied options; if no
   precedent, take the first rule and note it.
 - **Department** comes from the Ladder-1 row / map / precedent; when none gives one, the category default: Workshops / Motivation
@@ -156,6 +164,10 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
 - **Ramp re-runs its AUTOMATIC coding after an edit** (seen 2026-10-17: a Class-only write reset Department on 4 rows and Category +
   Department on 2 rows of 250, source AUTOMATIC). After ANY write, re-read Category, Department, Class and Vendor on the row and
   restore anything Ramp changed — verifying only the field you wrote is not enough.
+- **Class options get renamed - resolve class by UUID, never by name (2026-10-29).** Ramp renamed option 18f801bb "Alpha Miami Beach" to
+  "Alpha Miami Beach (71st St)" and 68792a8d "Alpha Miami Beach (Biarritz)" to plain "Alpha Miami Beach", so the plain name now points at the
+  ex-Biarritz site. `cardholder_class.txt` names can go stale but its UUIDs stay right: write the UUID, pull `/accounting/field-options`
+  (`ramp_id`) fresh before every pass, and treat a memo saying "Miami Beach" as the 71st St school unless it says Biarritz.
 - **Rules the reviewers judged too broad** (bare london, material, staff, doordash, open, parent, merch, roar, buildout and the
   2026-09-28 mismatch patterns) defer to the precedent chain.
 - **New keywords (Dania 2026-09-30)**: every pass mines the memos no rule reached into candidate rules backed by synced precedent;
@@ -200,6 +212,11 @@ Merchant match is exact after lower-casing. Memo keywords and cardholder+merchan
 ### cardholder_merchant_map.txt
 `Cardholder|Merchant|CategoryOptionUUID/DepartmentOptionUUID|Category name|Department name` — match cardholder (first + last
 token, case-insensitive) AND merchant (exact, case-insensitive).
+
+### cardholder_rulings.txt
+`Cardholder|mode|Default Category|Default Department|note` - per-cardholder rulings applied before Ladder-1 for that cardholder only.
+`history-first` = code from the cardholder's own synced history (cardholder + merchant ≤100 days → 2026 → cardholder usual), else the
+default; class still follows the ladder. One line today: MacKenzie Price (2026-10-29).
 
 ### cardholder_class.txt
 `Cardholder|QuickBooks Class name|Class option UUID` — the **fallback** class per cardholder (playbook A1 step 6), derived from the

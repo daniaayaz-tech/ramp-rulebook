@@ -1,6 +1,7 @@
 # Cardholder -> QuickBooks Class (exact QB name) -> Ramp Class option UUID (tracking category 6edcf078-60a4-4c7d-b35e-2efa7b58c9fe)
 # Source: Active contractors Google Sheet (Teamroom, T='Yes', EDU.*) read 2026-09-27; Teamroom -> Class translation table of 2026-09-18; entries kept from the 2026-09-19 file where the cardholder is not active in the sheet or the Teamroom has no Class translation. Re-generate with scratchpad kw3/regen_cardholder_class.mjs whenever the sheet changes.
 # Format: Cardholder|Class name|Class option UUID
+# 2026-10-29 (Dania): Parthsarthi Parthsarthi (EDU.COO, not in the Active contractors sheet) -> Central per decision 1.
 # 2026-10-17 (Finance posting playbook 14 Oct 2026, fixed mappings): never post to GT School Georgetown / GT Anywhere / GT Summer Camp / Unbound / Alpha World Ventures - their cardholders are mapped to class Central (13 cardholders changed). This file is now the FALLBACK (playbook A1 step 6); memo / receipt / trip campus, Ops-team build-out site, Summer Camps and staff-trip -> Central rules come first (see README).
 # 2026-10-23 (Dania decision 1): central-team cardholders (Teamroom Central / EDU.COO / CFO / finance / real estate) now fall back to class Central (playbook A1 rule 5; matches Finance postings since July). The six Ops-team members (Francia, Rockers, Houston, Ray, Liu, Forrest) keep Alpha School LLC as fallback because QuickBooks carries all build-out capex there. 36 cardholders changed.
 Aaron Crute|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
@@ -311,6 +312,7 @@ Norberto Troncoso|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Olivia Toman|Alpha Kirkland|f2ccb764-7270-4696-ada9-3d6840742d5b
 Paige Fults|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Paolo Lacanlale|Alpha The Woodlands|7a70633c-fc7f-4497-aeca-ddc4610cfc7f
+Parthsarthi Parthsarthi|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Parthvi  Harde|Alpha Anywhere Center|57d5c963-6143-4a65-bd88-f197307c0626
 Patricia Kelley|Brownsville K-8|95ece7e5-2047-45d7-822f-354232179e23
 Patricio Rosas Hernandez|Alpha Scottsdale|3f07195d-5c50-4f30-824a-9d15ebb95222

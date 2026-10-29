@@ -1,0 +1,5 @@
+# Per-cardholder rulings from Dania - applied BEFORE Ladder-1 / the maps / the playbook account table for that cardholder only.
+# Format: Cardholder|mode|Default Category|Default Department|note
+#   mode history-first = code from the cardholder's own SYNCED history (cardholder+merchant <=100d -> cardholder+merchant 2026 -> cardholder usual), else the default.
+#   Class still follows the class ladder (memo campus -> ... -> cardholder_class.txt fallback).
+MacKenzie Price|history-first|Administration:Marketing|MKT-Other Marketing cost|Dania 2026-10-29: "there are no rules for her - code as per past transaction synced history"; 552 synced 2026 rows are 76% Administration:Marketing / MKT-Other Marketing cost incl. hotels, flights and dinners; class fallback Central (decision 1, 2026-10-23)
