@@ -163,7 +163,13 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
     completed (no class, class not active, category not in Ramp, split with a missing line field, memo naming several campuses,
     not CLEARED) — these stay in Needs review and are listed.
   - The former blocks — ≥ $1,000, possible duplicate, refund without an original — are staged and listed in the run report instead.
-  - Re-read every object from Ramp before marking ready. Card transactions only; reimbursements are not in the daily run.
+  - Re-read every object from Ramp before marking ready. **Reimbursements are in the daily run too (Dania 2026-10-30):** same engine
+    and the same gate, with these specifics: only approved-and-later states are eligible (PENDING = awaiting approval and REJECTED,
+    DRAFT, CANCELED, DELETED never sync); mileage and per-diem claims are exempt from the receipt requirement; the personal-looking
+    check does not apply (an out-of-pocket claim is personal money by definition); repayments and disputes do not exist for them.
+    Coding is written with the connector tool `ramp_edit_reimbursement` (header write; Ramp stores Department on the header and
+    Category + Class on the single line, exactly like synced ones) and staged with `object_type: REIMBURSEMENT`. Precedent for
+    the chain = synced card rows AND synced reimbursements (data/synced_reimb_2026.json, 10,923 rows on 2026-10-30).
   - History: the 2026-10-04 gate required memo + receipt on every row; one-off close exceptions on 2026-09-30, 2026-10-04 and
     2026-10-29 (rows dated ≤ 20 Oct) staged without them before this became the standing rule.
 - **Split transactions** (more than one line item): Ramp keeps Category AND Class on the line items; a header write sets only the
@@ -214,10 +220,12 @@ were left for Dania (student trips?) — `Projects\RAMP\reviews\Playbook_cardhol
   the Ramp connector (`ramp_edit_transaction`; REST cannot write header coding) — memo-based class moves go to a reviewer agent
   first (move vs keep, decision 4 and the traps in section 1); (3) `verify` re-reads every written row; (4) `stage` re-checks each
   candidate live and marks Ready to Sync by the gate in section 4; (5) `report` writes
-  Projects/RAMP/reviews/Ramp_daily_run_<date>.csv (every row, its coding, basis, holds, repayment status and gate result) and a
-  short message.
+  Projects/RAMP/reviews/Ramp_daily_run_<date>.csv (every row with an Object column = Card / Reimbursement, its coding, basis, holds,
+  repayment status and gate result) and a short message.
 - **Never**: syncs to QuickBooks (Dania clicks Sync all), writes or passes a memo (placeholders stay blank), edits a synced row,
-  changes this repo, config.json or any Ramp setting, codes reimbursements (Dania 2026-10-29: not in scope).
+  changes this repo, config.json or any Ramp setting. Reimbursements ARE in scope since 2026-10-30 (Dania: "add reimbursements to the
+  daily run too"; they had been excluded on 2026-10-29): `plan` pulls never-synced approved reimbursements, writes go through
+  `ramp_edit_reimbursement` (r_slice / rjudge_batch files), staging uses object_type REIMBURSEMENT; PENDING / REJECTED never.
 - **Held rows in the report**: no memo / no receipt after the cutoff, disputed, personal-looking, several campuses, incomplete
   coding; listed with the ≥ $1,000 rows, possible duplicates, kept judge rows and any memo no rule reached (for Ladder-1).
 - **Repayments over REST**: `GET /repayments` needs scope `repayments:read`; Dania added it to the API client on 2026-10-30 and the
