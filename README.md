@@ -277,5 +277,5 @@ Central. Cardholders in neither fall back to Ramp location. Regenerate whenever 
 Austin Spyglass → Austin K-8 · Austin CO2 / Austin High School → Alpha High School · Central, EDU.COO/CFO/finance/real estate →
 Central (Ops team only: Alpha School LLC; Dania 2026-10-23) · New York → Alpha Anywhere Center · Oklahoma City → Alpha Oklahoma City (Reno) · Woodlands → Alpha The Woodlands ·
 Founders → Founders Hub · TSA.Lakeway → Texas Sports Academy · GT.Georgetown → Central (never GT School Georgetown) · PAM.HISD → HISD ·
-Phoenix → Alpha Scottsdale · Brownsville → Brownsville K-8 · Redmond → Alpha Kirkland · Orlando → Alpha Orlando (Winter Park pending).
+Phoenix → Alpha Scottsdale · Brownsville → Brownsville K-8 · Redmond → Alpha Kirkland · Orlando → Alpha Orlando (Winter Park pending). · Traveling Guides (EDU.School.Alpha.Traveling Guides.*) → Central (Dania 2026-10-30; no Ramp class for the pool).
 Otherwise `EDU.School.Alpha.<Location>.<Level>.<Mode>` → `Alpha <Location>`.

@@ -4,6 +4,8 @@
 # 2026-10-29 (Dania): Parthsarthi Parthsarthi (EDU.COO, not in the Active contractors sheet) -> Central per decision 1.
 # 2026-10-17 (Finance posting playbook 14 Oct 2026, fixed mappings): never post to GT School Georgetown / GT Anywhere / GT Summer Camp / Unbound / Alpha World Ventures - their cardholders are mapped to class Central (13 cardholders changed). This file is now the FALLBACK (playbook A1 step 6); memo / receipt / trip campus, Ops-team build-out site, Summer Camps and staff-trip -> Central rules come first (see README).
 # 2026-10-23 (Dania decision 1): central-team cardholders (Teamroom Central / EDU.COO / CFO / finance / real estate) now fall back to class Central (playbook A1 rule 5; matches Finance postings since July). The six Ops-team members (Francia, Rockers, Houston, Ray, Liu, Forrest) keep Alpha School LLC as fallback because QuickBooks carries all build-out capex there. 36 cardholders changed.
+# 2026-10-30 (Dania decision 2): Teamroom EDU.School.Alpha.Traveling Guides.* -> Central (traveling guides are a central pool; no Ramp class exists for them). Only August Garritano is in that Teamroom today; add new traveling guides here on refresh.
+August Garritano|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Aaron Crute|Central|d7906bd7-62b7-4de9-801d-6c2150154d1f
 Adam Shipley|Alpha Charlotte|43c0e4fa-9ac4-4e89-8cc6-a014f48f97f4
 Aidan Lopci|Alpha Malibu|343e6f51-0a56-41fd-9282-be7c1691ce56
